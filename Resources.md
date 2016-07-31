@@ -15,11 +15,11 @@ If you are having problems with getting R or RStudio, check out [this guide](htt
 
 # Learning and Troubleshooting with R
 
-To learn R, you need to learn [how to get unstuck with R](http://stat545.com/help-general.html). This teaches you a really good process to iterate through when getting unstuck.
+To learn R, you need to learn [how to get unstuck with R](http://stat545.com/help-general.html). This teaches you a really good process to iterate through when going through the process of getting unstuck.
 
 To learn a new function or package, [Quick-R](http://www.statmethods.net), provides nice quick description of functions and other R-related things.
 
-For all my other problems, I usually google the error message, or try and ask an intelligent question to google and then look for the appropriate [StackOVerflow Answer][http://stackoverflow.com]. [RSeek](http://rseek.org/) is also basically a google search that filters by R related content.
+For all my other problems, I usually google the error message, or try and ask an intelligent question to google and then look for the appropriate [StackOVerflow Answer](http://stackoverflow.com). [RSeek](http://rseek.org/) is also basically a google search that filters by R related content.
 
 I would also recommend checking out RStudio's [list of resources for learning R](http://www.rstudio.com/resources/training/online-learning/#R), and [this blog post](http://www3.nd.edu/~mclark19/projects.html), which describes learning R from a social sciences background.
 
@@ -33,7 +33,7 @@ Got a basic handle on R and are hankering for more? I recommend these free, onli
 
 - [R Packges](http://r-pkgs.had.co.nz"), and
 
-- [R for Data Science][http://r4ds.had.co.nz/]
+- [R for Data Science](http://r4ds.had.co.nz/)
 
 There is also a book, [Ramarro](http://www.quantide.com/R/r-training/r-web-books/ramarro-r-for-developers), by quantide which seems similar(ish) to Hadley's books.
 
@@ -41,11 +41,11 @@ There is also a book, [Ramarro](http://www.quantide.com/R/r-training/r-web-books
 
 S3 classes are this really awesome minimal class of functions that can be super handy in R. They are described nicely in Hadley's book, but I have also found these to be helpful:
 
-- [This R Book](http://www.cyclismo.org/tutorial/R/s3Classes.html)</a>
+- [This R Book](http://www.cyclismo.org/tutorial/R/s3Classes.html)
 
 - [This blog post](http://abhishek-tiwari.com/hacking/class-and-objects-in-r-s3-style), which also has such a suave blog layout.
 
-- [This vidio by Andrew Robinson](http://www.youtube.com/watch?v=VZkD7DXQ-fk&amp;feature=g-upl). Sides are available [here](http://files.meetup.com/1685538/presentation.pdf) here. Thanks to [](Damjan Vukcevic) for this information.
+- [This video by Andrew Robinson](http://www.youtube.com/watch?v=VZkD7DXQ-fk&amp;feature=g-upl). Sides available [here](http://files.meetup.com/1685538/presentation.pdf). Thanks to [http://damjan.vukcevic.net/](Damjan Vukcevic) for this information.
 
 # Data Visualisation
 
