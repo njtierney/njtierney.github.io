@@ -7,55 +7,45 @@ There are a lot of questions and answers on the internet. This page lists resour
 
 # Starting out with R
 
-Step one: <a href="https://cran.r-project.org/">download R</a> to your appropriate system (Windows, Mac, and Linux).
+Step one: [download R](https://cran.r-project.org) to your appropriate system (Windows, Mac, and Linux).
 
-Step two: <a href="">download RStudio</a>. Trust me, RStudio makes using R much much easier.
+Step two: [download RStudio](https://www.rstudio.com/products/rstudio/download2/). RStudio has invested a lot of time and money to make using R much, much easier. It's also free!
 
-If you are having problems with getting R or RStudio, check out <a href="https://github.com/fawda123/swmp_installR/blob/master/R_install_guide.pdf">this guide</a>, from <a href="https://beckmw.wordpress.com/2014/09/28/back-to-square-one-r-and-rstudio-installation/"> this guy</a>. It covers installing R and RStudio in a little more detail.
+If you are having problems with getting R or RStudio, check out [this guide](https://github.com/fawda123/swmp_installR/blob/master/R_install_guide.pdf), from [this guy](https://beckmw.wordpress.com/2014/09/28/back-to-square-one-r-and-rstudio-installation/). It covers installing R and RStudio in a little more detail.
 
 # Learning and Troubleshooting with R
 
-To learn R, you need to learn <a href="">how to get unstuck with R.</a>
+To learn R, you need to learn [how to get unstuck with R](http://stat545.com/help-general.html). This teaches you a really good process to iterate through when getting unstuck.
 
-To learn a new function or package head to:
+To learn a new function or package, [Quick-R](http://www.statmethods.net), provides nice quick description of functions and other R-related things.
 
-- <a href="http://www.statmethods.net">Quick-R</a>, which provides nice quick description of functions and aother R-things.</li>
+For all my other problems, I usually google the error message, or try and ask an intelligent question to google and then look for the appropriate [StackOVerflow Answer][http://stackoverflow.com]. [RSeek](http://rseek.org/) is also basically a google search that filters by R related content.
 
+I would also recommend checking out RStudio's [list of resources for learning R](http://www.rstudio.com/resources/training/online-learning/#R), and [this blog post](http://www3.nd.edu/~mclark19/projects.html), which describes learning R from a social sciences background.
 
-For all my other problems, I usually google the error code, or search at 
-<a href="http://stackoverflow.com">StackOverflow</a>
-
-I would also recommend checking out:
-
-- RStudio's <a href="http://www.rstudio.com/resources/training/online-learning/#R">list of resources for learning R</a>, and</li>
-
-- <a href="http://www3.nd.edu/~mclark19/projects.html">This blog post</a>, which describes learning R from a social sciences background
-
-[RSeek](http://rseek.org/) is basically a google search that filters by R related content.
-
-To stay up to date with what other people around the world are doing with R, I recommend checking up on [r-bloggers]() every other day. It is also a great resource for finding 
+To stay up to date with what other people around the world are doing with R, I recommend checking up on [r-bloggers](r-bloggers.com) every other day, and checking out the [#rstats](https://twitter.com/search?q=%23rstats&src=tyah) hashtag on twitter. The R and statistics community on twitter is excellent and friendly.
 
 # Learning Advanced R
 
-Got a basic handle on R and are hankering for more? I recommend these two (free, online) books by Hadley Wickham:
+Got a basic handle on R and are hankering for more? I recommend these free, online books by [Hadley Wickham](http://hadley.nz/):
 
-- <a href="http://adv-r.had.co.nz">Advanced R Programming</a>
+- [Advanced R Programming](http://adv-r.had.co.nz">Advanced R Programming)
 
-- <a href="http://r-pkgs.had.co.nz">R Packages</a>
+- [R Packges](http://r-pkgs.had.co.nz"), and
 
-There is also this new book which seems similar(ish) to Hadley's books:
+- [R for Data Science][http://r4ds.had.co.nz/]
 
-- <a href="http://www.quantide.com/R/r-training/r-web-books/ramarro-r-for-developers">Ramarro</a> 
+There is also a book, [Ramarro](http://www.quantide.com/R/r-training/r-web-books/ramarro-r-for-developers), by quantide which seems similar(ish) to Hadley's books.
 
 # Advanced R stuff: S3 Classes
 
 S3 classes are this really awesome minimal class of functions that can be super handy in R. They are described nicely in Hadley's book, but I have also found these to be helpful:
 
-- <a href="http://www.cyclismo.org/tutorial/R/s3Classes.html">This R Book</a>, which is also an entire book on R programming.
+- [This R Book](http://www.cyclismo.org/tutorial/R/s3Classes.html)</a>
 
-- <a href="http://abhishek-tiwari.com/hacking/class-and-objects-in-r-s3-style">This blog post</a>, which also has such a suave blog layout ... Just sayin'.
+- [This blog post](http://abhishek-tiwari.com/hacking/class-and-objects-in-r-s3-style), which also has such a suave blog layout.
 
-<a href="http://www.youtube.com/watch?v=VZkD7DXQ-fk&amp;feature=g-upl">This video by Dr. Andrew Robinson.</a> Slides are also available <a href="http://files.meetup.com/1685538/presentation.pdf">here.</a> Thanks to <a href="http://damjan.vukcevic.net">Damjan Vukcevic</a>) for this information.
+- [This vidio by Andrew Robinson](http://www.youtube.com/watch?v=VZkD7DXQ-fk&amp;feature=g-upl). Sides are available [here](http://files.meetup.com/1685538/presentation.pdf) here. Thanks to [](Damjan Vukcevic) for this information.
 
 # Data Visualisation
 
@@ -107,7 +97,7 @@ If you want to learn statistics using R, check out [this website](http://www.da
 
 # Decision Trees
 
-I use decision trees a lot in R, and I even [wrote a little package](https://github.com/tierneyn/neato) that helps take care of some common tasks in interrogating decision trees. Here are a list of resources that I recommend using to learn about them:
+I use decision trees a lot in R, and I even [wrote a little package](https://github.com/njtierney/neato) that helps take care of some common tasks in interrogating decision trees. Here are a list of resources that I recommend using to learn about them:
 
 - [This book from James et al](http://www-bcf.usc.edu/~gareth/ISL/ISLR%20First%20Printing.pdf) - chapter 8 specifically refers to decision trees. They've also made the book free! Also [their videos](https://www.youtube.com/playlist?list=PL5-da3qGB5IB23TLuA8ZgVGC8hV8ZAdGh) on decision trees are very useful. You can find a comprehensive list of all their videos and material at [this website](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos)	
 
