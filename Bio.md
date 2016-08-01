@@ -5,15 +5,15 @@ layout: page
 
 Where to start?
 
-I am Brisbane born and bred. I entered Psychological Science at the University of Queensland in 2008 with visions of being a child psychologist. My journey through my undergraduate was thoroughly augmented when I went on exchange to McGill University in Winter, 2010. This trip opened my eyes to the importance of travel, the outdoors, and the idea that being an academic could take you places.
+I was born and raised in Brisbane, Australia. I entered Psychological Science at the University of Queensland in 2008 with visions of being a child psychologist. My journey through my undergraduate was thoroughly augmented when I went on exchange to McGill University in Winter, 2010. This trip opened my eyes to the importance of travel, the outdoors, and the idea that being an academic could take you places.
 
 I finished my honours year in 2012 with a passion for research that would have surprised my first year self. This passion was largely realised for two reasons:
 
-1. An excellent honours supervisor, [Dr. Phil Grove](https://www.psy.uq.edu.au/directory/index.html?id=1118), who gave me a project that allowed me to make some actual new discovers, exciting my brain, and 
+1. An excellent honours supervisor, [Dr. Phil Grove](https://www.psy.uq.edu.au/directory/index.html?id=1118), who gave me a project that allowed me to make some actual new discoveries.
 
-2. A class on public health psychology lectured by [Professor Christina Lee](https://www.psy.uq.edu.au/directory/index.html?id=734), which showed me the broad and powerful implications of good health research.
+2. A class on public health psychology lectured by [Professor Christina Lee](https://www.psy.uq.edu.au/directory/index.html?id=734), which showed me the broad and powerful implications of good health research, and good statistics.
 
-After undergrad, I wanted to study more statistics. I decided that I wanted to help bridge the gap between policy and statistics, and to do that I'd need to understand more about the math behind stats, something that they don't teach or in psychology. I sought out a job doing health research and stats and managed to find a job at QUT as a research assistant in the statistics department.  After I finished the job I was offered an opportunity to do a PhD in statistics, which came complete with an industry scholarship through [the Industry Doctoral Training Centre](https://www.atn.edu.au/industry/IDTC/). I officially began in May 2013, and have been enjoying the rollercoaster ride that is a PhD ever since.
+After undergrad, I wanted to study more statistics, and I wanted to help bridge the gap between policy and statistics. To do that, I'd need to understand more about the math behind stats, something that they don't teach or in psychology. I sought out a job doing health research and stats and managed to find a job at QUT as a research assistant in the statistics department.  After I finished the job I was offered an opportunity to do a PhD in statistics, which came complete with an industry scholarship through [the Industry Doctoral Training Centre](https://www.atn.edu.au/industry/IDTC/). I officially began in May 2013, and have been enjoying the rollercoaster ride that is a PhD ever since.
 
 It has been a steep learning curve almost from day one, grappling with the wonderful world of mathematics, statistics, and programming. Fortunately, I am surrounded by the marvellous people in [Bayesian Research Analysis Group](http://bragqut.wordpress.com) (BRAG), who have helped this poor kid from psychology begin to understand complex mathematics, programming syntax, and how to be a great researcher. Honestly, I've really lucked out. This website and blog helps me document my journey, to remind me of how far I've come.
 
