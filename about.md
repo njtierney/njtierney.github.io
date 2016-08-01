@@ -11,22 +11,15 @@ title: About
 
 <!-- above code nabbed from http://stackoverflow.com/questions/7177881/how-can-i-put-css-and-html-code-in-the-same-file and http://support2.constantcontact.com/articles/FAQ/3637 -->
 
-<p>Welcome to my website.</p>
+Welcome to my website.
 
+My name is Nick. I am a PhD Candidate in Statistics at [QUT](https://www.qut.edu.au/) with [BRAG](https://bragqut.wordpress.com/). My thesis is about creating better methods for modelling occupational health.
 
-<p>My name is Nick. I am a PhD Candidate in Statistics at <a href="https://www.qut.edu.au/">QUT</a> with <a href="https://bragqut.wordpress.com/">BRAG</a>. My thesis is about creating better methods for modelling occupational health. </p>
+I created this website so I can write about what I do, and engage in dialogue with statisticians, programmers, and whoever else is interested. When I write R related posts, they are syndicated on [R-bloggers](http://www.r-bloggers.com/).
 
-<p>This website exists so I can write about what I do and engage in dialogue with statisticians programmers, and whoever else is interested. When I write R related posts, they are syndicated on <a href="http://www.r-bloggers.com/">R-bloggers</a>.</p>	
+Outside my PhD, I enjoy rock climbing, playing guitar [taking photos](https://www.flickr.com/photos/134851297@N04/), and making and drinking coffee.
 
-<p>Outside my PhD, I enjoy rock climbing, playing guitar, <a href="https://www.flickr.com/photos/134851297@N04/">taking photos</a>, and making and drinking coffee.</p>
+I've recently moved my website from wordpress to [Jekyll](http://jekyllrb.com/). This new website is hosted by [GitHub](http://www.github.com), using the [lanyon theme](https://github.com/poole/lanyon).
 
-<p>I've recently moved my website from wordpress to <a href="http://jekyllrb.com/">Jekyll</a>. This new website is hosted by <a href ="http://www.github.com" >GitHub</a>, using the <a href = "https://github.com/poole/lanyon" >lanyon</a> theme.
-
-<p>Feel free to send me an email at <a href="mailto:nicholas.tierney@gmail.com">nicholas.tierney@gmail.com</a></p>
-
-	
-</p>
-</div>
-</p>
-
+Feel free to send me an email at <a href="mailto:nicholas.tierney@gmail.com">nicholas.tierney@gmail.com</a>
 
