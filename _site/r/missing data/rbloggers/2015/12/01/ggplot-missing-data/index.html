@@ -155,68 +155,68 @@
 
 <p>Let’s make a dataset using the awesome <a href="https://github.com/trinker/wakefield">wakefield package</a>, and add random missingness.</p>
 
-<p><code class="highlighter-rouge">r
-library(dplyr)
-library(wakefield)
-df &lt;- 
-  r_data_frame(
-  n = 30,
-  id,
-  race,
-  age,
-  sex,
-  hour,
-  iq,
-  height,
-  died,
-  Scoring = rnorm,
-  Smoker = valid
-  ) %&gt;%
-  r_na(prob=.4)
-</code></p>
+<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">library</span><span class="p">(</span><span class="n">dplyr</span><span class="p">)</span><span class="w">
+</span><span class="n">library</span><span class="p">(</span><span class="n">wakefield</span><span class="p">)</span><span class="w">
+</span><span class="n">df</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> 
+  </span><span class="n">r_data_frame</span><span class="p">(</span><span class="w">
+  </span><span class="n">n</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">30</span><span class="p">,</span><span class="w">
+  </span><span class="n">id</span><span class="p">,</span><span class="w">
+  </span><span class="n">race</span><span class="p">,</span><span class="w">
+  </span><span class="n">age</span><span class="p">,</span><span class="w">
+  </span><span class="n">sex</span><span class="p">,</span><span class="w">
+  </span><span class="n">hour</span><span class="p">,</span><span class="w">
+  </span><span class="n">iq</span><span class="p">,</span><span class="w">
+  </span><span class="n">height</span><span class="p">,</span><span class="w">
+  </span><span class="n">died</span><span class="p">,</span><span class="w">
+  </span><span class="n">Scoring</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">rnorm</span><span class="p">,</span><span class="w">
+  </span><span class="n">Smoker</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">valid</span><span class="w">
+  </span><span class="p">)</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
+  </span><span class="n">r_na</span><span class="p">(</span><span class="n">prob</span><span class="o">=</span><span class="m">.4</span><span class="p">)</span><span class="w">
+</span></code></pre>
+</div>
 
 <p>This is what the Amelia package produces by default:</p>
 
-<p>```r
-library(Amelia)</p>
+<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">library</span><span class="p">(</span><span class="n">Amelia</span><span class="p">)</span><span class="w">
 
-<p>missmap(df)
-```</p>
+</span><span class="n">missmap</span><span class="p">(</span><span class="n">df</span><span class="p">)</span><span class="w">
+</span></code></pre>
+</div>
 
 <p><img src="/figure/source/2015-11-12-ggplot-missing-data/unnamed-chunk-2-1.png" alt="plot of chunk unnamed-chunk-2" /></p>
 
 <p>And let’s explore the missing data using my own ggplot function:</p>
 
-<p>```r
-# A function that plots missingness
-# requires <code class="highlighter-rouge">reshape2</code></p>
+<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="c1"># A function that plots missingness
+# requires `reshape2`
+</span><span class="w">
+</span><span class="n">library</span><span class="p">(</span><span class="n">reshape2</span><span class="p">)</span><span class="w">
+</span><span class="n">library</span><span class="p">(</span><span class="n">ggplot2</span><span class="p">)</span><span class="w">
 
-<p>library(reshape2)
-library(ggplot2)</p>
-
-<p>ggplot_missing &lt;- function(x){</p>
-
-<p>x %&gt;% 
-    is.na %&gt;%
-    melt %&gt;%
-    ggplot(data = .,
-           aes(x = Var2,
-               y = Var1)) +
-    geom_raster(aes(fill = value)) +
-    scale_fill_grey(name = “”,
-                    labels = c(“Present”,”Missing”)) +
-    theme_minimal() + 
-    theme(axis.text.x  = element_text(angle=45, vjust=0.5)) + 
-    labs(x = “Variables in Dataset”,
-         y = “Rows / observations”)
-}
-```</p>
+</span><span class="n">ggplot_missing</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="k">function</span><span class="p">(</span><span class="n">x</span><span class="p">){</span><span class="w">
+  
+  </span><span class="n">x</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> 
+    </span><span class="n">is.na</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
+    </span><span class="n">melt</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
+    </span><span class="n">ggplot</span><span class="p">(</span><span class="n">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">.</span><span class="p">,</span><span class="w">
+           </span><span class="n">aes</span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Var2</span><span class="p">,</span><span class="w">
+               </span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Var1</span><span class="p">))</span><span class="w"> </span><span class="o">+</span><span class="w">
+    </span><span class="n">geom_raster</span><span class="p">(</span><span class="n">aes</span><span class="p">(</span><span class="n">fill</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">value</span><span class="p">))</span><span class="w"> </span><span class="o">+</span><span class="w">
+    </span><span class="n">scale_fill_grey</span><span class="p">(</span><span class="n">name</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span><span class="w">
+                    </span><span class="n">labels</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">c</span><span class="p">(</span><span class="s2">"Present"</span><span class="p">,</span><span class="s2">"Missing"</span><span class="p">))</span><span class="w"> </span><span class="o">+</span><span class="w">
+    </span><span class="n">theme_minimal</span><span class="p">()</span><span class="w"> </span><span class="o">+</span><span class="w"> 
+    </span><span class="n">theme</span><span class="p">(</span><span class="n">axis.text.x</span><span class="w">  </span><span class="o">=</span><span class="w"> </span><span class="n">element_text</span><span class="p">(</span><span class="n">angle</span><span class="o">=</span><span class="m">45</span><span class="p">,</span><span class="w"> </span><span class="n">vjust</span><span class="o">=</span><span class="m">0.5</span><span class="p">))</span><span class="w"> </span><span class="o">+</span><span class="w"> 
+    </span><span class="n">labs</span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"Variables in Dataset"</span><span class="p">,</span><span class="w">
+         </span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"Rows / observations"</span><span class="p">)</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+</div>
 
 <p>Let’s test it out</p>
 
-<p><code class="highlighter-rouge">r
-ggplot_missing(df)
-</code></p>
+<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">ggplot_missing</span><span class="p">(</span><span class="n">df</span><span class="p">)</span><span class="w">
+</span></code></pre>
+</div>
 
 <p><img src="/figure/source/2015-11-12-ggplot-missing-data/unnamed-chunk-4-1.png" alt="plot of chunk unnamed-chunk-4" /></p>
 

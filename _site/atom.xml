@@ -4,7 +4,7 @@
  <title>Nicholas Tierney</title>
  <link href="http://njtierney.github.io/atom.xml" rel="self"/>
  <link href="http://njtierney.github.io/"/>
- <updated>2016-06-30T19:32:26+02:00</updated>
+ <updated>2016-08-22T17:01:11+10:00</updated>
  <id>http://njtierney.github.io</id>
  <author>
    <name>Nicholas Tierney</name>
@@ -13,9 +13,90 @@
 
  
  <entry>
+   <title>Science Meets Parliament</title>
+   <link href="http://njtierney.github.io/blag/2016/08/22/science-meets-parliament/"/>
+   <updated>2016-08-22T00:00:00+10:00</updated>
+   <id>http://njtierney.github.io/blag/2016/08/22/science-meets-parliament</id>
+   <content type="html">&lt;p&gt;This blog post is a repost from the &lt;a href=&quot;http://www.statsoc.org.au/wp-content/uploads/2013/06/SSAI_Newsletter_June2016_v3.pdf&quot;&gt;Statistical Society of Australia Newsletter&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;div style=&quot;height: auto&quot;&gt;
+&lt;img src=&quot;/assets/smp2016-02.jpg&quot; alt=&quot;Scientists make their way to Parliament&quot; style=&quot;width: 100%;max-height: 100%&quot; /&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In February I was lucky to receive funding from SSA to attend the two-day event Science Meets Parliament, held in Canberra. Science Meets parliament brings together 200 scientists to learn about research communication, the role of research in policy, and how to engage a politician. We heard from speakers such as Professor Ian Chubb, Professor Brian Schmidt, Paul Bonjiorno, Alison Carabine, Professor Emily Banks, and Dr. Subho Banerjee, and Senator Kim Carr.&lt;/p&gt;
+
+&lt;p&gt;Day one consisted of panel discussions on how to use science to shape policy, the National Innovation and Science Agenda, and how to deliver your science in 60 seconds. A Gala dinner was held that evening and scientists got to share a meal with the attending politicians. Day two was the most valuable of the event, as we had the opportunity to have a face to face meeting with a politician. On day two, there were also panel discussions with politicians and scientists on how science and politicians mix in the real world. Participants also had the option to attend the National Press Club, and Question Time in the House of Representative or the Senate.&lt;/p&gt;
+
+&lt;p&gt;The event was opened by Nobel prize winner Professor Brian Schmidt in great style by taking a selfie of himself in front of the audience. I asked him what advice he would give to himself when he was in his PhD. He said:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Patience, and positivity: Patience, because good things don’t come all at once, and you need to wait for them sometimes. Positivity, because if you stay positive, it is the best possible outcome. Always.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Very wise words, from a very good source.&lt;/p&gt;
+
+&lt;p&gt;Another personal highlight was the session on ‘How to communicate science in 60 seconds’. Giving three steps for telling a story: “And”, “But”, “And therefore”.&lt;/p&gt;
+
+&lt;p&gt;A template might look like the following:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Here’s all the things we know and that lead to this and this&lt;/li&gt;
+  &lt;li&gt;but we still need to know x, y, x.&lt;/li&gt;
+  &lt;li&gt;Therefore we need to do ABC&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;On the second day I met with the Member of Parliament for Griffith, Terri Butler. With me was Inge Koch from AMSI and Alfonso Garcia-Bennett from the Centre for Nanoscale BioPhotonics. This was my first time meeting a elected member of parliament face to face. I was struck by the breadth of Terri’s knowledge of issues relevant to the residence of Griffith, and was again reminded that whilst we often hear negative things about politicians in the media, they are intelligent, hard working people who care about their community. I’ve since emailed Terri a few times and have received replies shortly afterwards. I would highly recommend getting in touch with your local member.&lt;/p&gt;
+
+&lt;p&gt;I first got into research to help bridge the gap between policy and statistics, so that I could have some sort of meaningful positive impact on the world around me. My knowledge of statistics is constantly growing, but my knowledge of policy and politics is much more limited. Science Meets Parliament taught me how to engage politicians and policy makers, explained the role media plays in both science and politics, provided me with practical tools for evocatively delivering my research, and gave me the opportunity to engage in an excellent networking opportunity. I highly recommend attending Science Meets Parliament, it was an incredibly well run event, and I would absolutely attend again. Thank you to the SSA for providing me with this great opportunity!&lt;/p&gt;
+
+&lt;p&gt;
+&lt;div style=&quot;height: auto&quot;&gt;
+&lt;img src=&quot;/assets/SMP16-031.jpg&quot; alt=&quot;Myself asking yet another question&quot; style=&quot;width: 100%;max-height: 100%&quot; /&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;There was a lot of fantastic advice given over the two days. I have condensed my thoughts and notes down into a short list below.&lt;/p&gt;
+
+&lt;h1 id=&quot;nicks-hot-tips-on-politics-science-media-and-policy&quot;&gt;Nick’s Hot Tips On Politics, Science, Media, and Policy&lt;/h1&gt;
+
+&lt;h2 id=&quot;on-politicians&quot;&gt;On Politicians&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Never assume anything when talking to a politician.&lt;/li&gt;
+  &lt;li&gt;Know the issues that the politician thinks are important or challenging.&lt;/li&gt;
+  &lt;li&gt;A politician’s job is stressful, make meeting with them a positive experience.&lt;/li&gt;
+  &lt;li&gt;Politicians are employed to care for their electorate, so your research findings need to be related to their electorate to be relevant to them.&lt;/li&gt;
+  &lt;li&gt;Email your local member to stay in touch about issues important to you.&lt;/li&gt;
+  &lt;li&gt;Build the momentum when getting involved with politicians. Email straight after meeting, again later that week, and be sure to stay in touch.&lt;/li&gt;
+  &lt;li&gt;If you want to engage politicians and create change, respectfully engaging your local member is one of the best approaches.&lt;/li&gt;
+  &lt;li&gt;Reaching out to your local member doesn’t necessarily allign you with their political party; you are reaching out to someone who is employed to help those in their electorate.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;on-communication-and-media&quot;&gt;On Communication and Media&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Science isn’t over until it’s communicated&lt;/li&gt;
+  &lt;li&gt;Tell a story with your research. You want people to walk away with one critical piece of information.&lt;/li&gt;
+  &lt;li&gt;Fight the temptation to say “I’m not an expert on that topic”. You might not be the leading expert in the world, but you are often the leading expert in the room. You can still give your professional opinion.&lt;/li&gt;
+  &lt;li&gt;As a scientist , don’t wait for media to engage with you. Actively engage and seek out media coverage&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;on-policy-and-change&quot;&gt;On Policy and Change&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;If you want to be involved with policy, stay engaged with the policy process, and ask your local member how to get started doing this.&lt;/li&gt;
+  &lt;li&gt;Changes happen when politicians, departments, and advisors converge on a topic.&lt;/li&gt;
+  &lt;li&gt;Big change from science takes three to tango: Government, university, and business. They all need to work together and agree on an idea.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Australian rOpenSci Unconference</title>
    <link href="http://njtierney.github.io/blag/2016/03/09/au-unconf-down-under/"/>
-   <updated>2016-03-09T00:00:00+01:00</updated>
+   <updated>2016-03-09T00:00:00+10:00</updated>
    <id>http://njtierney.github.io/blag/2016/03/09/au-unconf-down-under</id>
    <content type="html">&lt;p&gt;The rOpenSci Unconferene is coming to Australia and we are excited!!&lt;/p&gt;
 
@@ -53,7 +134,7 @@
  <entry>
    <title>WOMBAT 2016 Wrap Up</title>
    <link href="http://njtierney.github.io/blag/rbloggers/2016/03/06/wombat-2016-wrap-up/"/>
-   <updated>2016-03-06T00:00:00+01:00</updated>
+   <updated>2016-03-06T00:00:00+10:00</updated>
    <id>http://njtierney.github.io/blag/rbloggers/2016/03/06/wombat-2016-wrap-up</id>
    <content type="html">&lt;p&gt;A few weeks ago I spoke at the &lt;a href=&quot;http://wombat2016.org/&quot;&gt;Workshop Organized by Monash Business Analytics Team (WOMBAT)&lt;/a&gt;, held in the Melbourne Zoo (!) on Thursday and Friday the 18th and 19th February.&lt;/p&gt;
 
@@ -86,74 +167,74 @@
  <entry>
    <title>ggplot your missing data</title>
    <link href="http://njtierney.github.io/r/missing%20data/rbloggers/2015/12/01/ggplot-missing-data/"/>
-   <updated>2015-12-01T00:00:00+01:00</updated>
+   <updated>2015-12-01T00:00:00+10:00</updated>
    <id>http://njtierney.github.io/r/missing%20data/rbloggers/2015/12/01/ggplot-missing-data</id>
    <content type="html">&lt;p&gt;Visualising missing data is important when analysing a dataset. I wanted to make a plot of the presence/absence in a dataset. One package, &lt;a href=&quot;https://cran.r-project.org/web/packages/Amelia/index.html&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Amelia&lt;/code&gt;&lt;/a&gt; provides a function to do this, but I don’t like the way it looks. So I made a ggplot version of what it did.&lt;/p&gt;
 
 &lt;p&gt;Let’s make a dataset using the awesome &lt;a href=&quot;https://github.com/trinker/wakefield&quot;&gt;wakefield package&lt;/a&gt;, and add random missingness.&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;r
-library(dplyr)
-library(wakefield)
-df &amp;lt;- 
-  r_data_frame(
-  n = 30,
-  id,
-  race,
-  age,
-  sex,
-  hour,
-  iq,
-  height,
-  died,
-  Scoring = rnorm,
-  Smoker = valid
-  ) %&amp;gt;%
-  r_na(prob=.4)
-&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;library&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dplyr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;library&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;wakefield&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;r_data_frame&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;race&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;age&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hour&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;died&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Scoring&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rnorm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Smoker&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;valid&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&amp;gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;r_na&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;prob&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;.4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;This is what the Amelia package produces by default:&lt;/p&gt;
 
-&lt;p&gt;```r
-library(Amelia)&lt;/p&gt;
+&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;library&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Amelia&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 
-&lt;p&gt;missmap(df)
-```&lt;/p&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;missmap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;&lt;img src=&quot;/figure/source/2015-11-12-ggplot-missing-data/unnamed-chunk-2-1.png&quot; alt=&quot;plot of chunk unnamed-chunk-2&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;And let’s explore the missing data using my own ggplot function:&lt;/p&gt;
 
-&lt;p&gt;```r
-# A function that plots missingness
-# requires &lt;code class=&quot;highlighter-rouge&quot;&gt;reshape2&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# A function that plots missingness
+# requires `reshape2`
+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;library&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reshape2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;library&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ggplot2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 
-&lt;p&gt;library(reshape2)
-library(ggplot2)&lt;/p&gt;
-
-&lt;p&gt;ggplot_missing &amp;lt;- function(x){&lt;/p&gt;
-
-&lt;p&gt;x %&amp;gt;% 
-    is.na %&amp;gt;%
-    melt %&amp;gt;%
-    ggplot(data = .,
-           aes(x = Var2,
-               y = Var1)) +
-    geom_raster(aes(fill = value)) +
-    scale_fill_grey(name = “”,
-                    labels = c(“Present”,”Missing”)) +
-    theme_minimal() + 
-    theme(axis.text.x  = element_text(angle=45, vjust=0.5)) + 
-    labs(x = “Variables in Dataset”,
-         y = “Rows / observations”)
-}
-```&lt;/p&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ggplot_missing&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&amp;gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
+    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;is.na&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&amp;gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;melt&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&amp;gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ggplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+           &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;aes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Var2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+               &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Var1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;geom_raster&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;aes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fill&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;scale_fill_grey&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+                    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;labels&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Present&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Missing&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;theme_minimal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
+    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;theme&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;axis.text.x&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;element_text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;angle&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;45&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;vjust&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0.5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
+    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;labs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Variables in Dataset&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+         &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Rows / observations&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Let’s test it out&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;r
-ggplot_missing(df)
-&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;ggplot_missing&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;&lt;img src=&quot;/figure/source/2015-11-12-ggplot-missing-data/unnamed-chunk-4-1.png&quot; alt=&quot;plot of chunk unnamed-chunk-4&quot; /&gt;&lt;/p&gt;
 
@@ -170,7 +251,7 @@ ggplot_missing(df)
  <entry>
    <title>How I built my website</title>
    <link href="http://njtierney.github.io/jekyll/2015/11/11/how-i-built-my-site/"/>
-   <updated>2015-11-11T00:00:00+01:00</updated>
+   <updated>2015-11-11T00:00:00+10:00</updated>
    <id>http://njtierney.github.io/jekyll/2015/11/11/how-i-built-my-site</id>
    <content type="html">&lt;p&gt;I’ve recently changed my website from Wordpress to Jekyll. In this post I try and succinctly describe how it happened.&lt;/p&gt;
 
@@ -268,8 +349,7 @@ ggplot_missing(df)
 
 &lt;p&gt;This means that the output from the R command &lt;code class=&quot;highlighter-rouge&quot;&gt;knitr::kable(head(iris))&lt;/code&gt;:&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
-| Sepal.Length| Sepal.Width| Petal.Length| Petal.Width|Species |
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;| Sepal.Length| Sepal.Width| Petal.Length| Petal.Width|Species |
 |------------:|-----------:|------------:|-----------:|:-------|
 |          5.1|         3.5|          1.4|         0.2|setosa  |
 |          4.9|         3.0|          1.4|         0.2|setosa  |
@@ -277,7 +357,8 @@ ggplot_missing(df)
 |          4.6|         3.1|          1.5|         0.2|setosa  |
 |          5.0|         3.6|          1.4|         0.2|setosa  |
 |          5.4|         3.9|          1.7|         0.4|setosa  |
-&lt;/code&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;turns into&lt;/p&gt;
 
@@ -374,60 +455,60 @@ ggplot_missing(df)
  <entry>
    <title>Using `table` the dplyr way</title>
    <link href="http://njtierney.github.io/r/2015/11/03/tally-the-dplyr-table/"/>
-   <updated>2015-11-03T00:00:00+01:00</updated>
+   <updated>2015-11-03T00:00:00+10:00</updated>
    <id>http://njtierney.github.io/r/2015/11/03/tally-the-dplyr-table</id>
    <content type="html">&lt;p&gt;In this post I describe how to use &lt;code class=&quot;highlighter-rouge&quot;&gt;tally&lt;/code&gt;, the &lt;code class=&quot;highlighter-rouge&quot;&gt;dplyr&lt;/code&gt; equivalent of &lt;code class=&quot;highlighter-rouge&quot;&gt;table&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;table&lt;/code&gt; gives you the frequencies of something in a category. Let’s use the &lt;code class=&quot;highlighter-rouge&quot;&gt;iris&lt;/code&gt; dataset to illustrate. Let’s say we want to know how many are in each species in &lt;code class=&quot;highlighter-rouge&quot;&gt;iris&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;r
-table(iris$Species)
-&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;table&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iris&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Species&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
-## 
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;## 
 ##     setosa versicolor  virginica 
 ##         50         50         50
-&lt;/code&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;So there happen to be 50 in each of the species.&lt;/p&gt;
 
 &lt;p&gt;But if you want to present this in a tidy dataframe, where each column is a variable, and each row is an observation, you’d have to do some annoying reformating. But need not dispair, &lt;code class=&quot;highlighter-rouge&quot;&gt;dplyr&lt;/code&gt; has us covered.&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;r
-library(dplyr)
-&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;library&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dplyr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;## 
+## Attaching package: 'dplyr'
 ## 
-## Attaching package: &#39;dplyr&#39;
-## 
-## The following objects are masked from &#39;package:stats&#39;:
+## The following objects are masked from 'package:stats':
 ## 
 ##     filter, lag
 ## 
-## The following objects are masked from &#39;package:base&#39;:
+## The following objects are masked from 'package:base':
 ## 
 ##     intersect, setdiff, setequal, union
-&lt;/code&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
-&lt;p&gt;```r
-iris.tally &amp;lt;- iris %&amp;gt;%
-  group_by(Species) %&amp;gt;% 
-  tally&lt;/p&gt;
+&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;iris.tally&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iris&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&amp;gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;group_by&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Species&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&amp;gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tally&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 
-&lt;p&gt;iris.tally
-```&lt;/p&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iris.tally&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
-## Source: local data frame [3 x 2]
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;## Source: local data frame [3 x 2]
 ## 
 ##      Species     n
 ##       (fctr) (int)
 ## 1     setosa    50
 ## 2 versicolor    50
 ## 3  virginica    50
-&lt;/code&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;This gives us a neat dataframe, where we get Species as a column, and the number of observations in each Species.&lt;/p&gt;
 
@@ -435,11 +516,11 @@ iris.tally &amp;lt;- iris %&amp;gt;%
 
 &lt;p&gt;So I could now do this:&lt;/p&gt;
 
-&lt;p&gt;```r
-library(knitr)&lt;/p&gt;
+&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;library&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;knitr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 
-&lt;p&gt;kable(iris.tally)
-```&lt;/p&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;kable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iris.tally&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
@@ -471,7 +552,7 @@ library(knitr)&lt;/p&gt;
  <entry>
    <title>R Package `neato`</title>
    <link href="http://njtierney.github.io/r/2015/03/09/r-package-neato/"/>
-   <updated>2015-03-09T00:00:00+01:00</updated>
+   <updated>2015-03-09T00:00:00+10:00</updated>
    <id>http://njtierney.github.io/r/2015/03/09/r-package-neato</id>
    <content type="html">&lt;p&gt;My workflow in R now is to make a function after I copy and paste some code more than once. Sometimes I find myself using these functions more than once, across different projects.&lt;/p&gt;
 
@@ -488,7 +569,7 @@ library(knitr)&lt;/p&gt;
  <entry>
    <title>Working Smoothly(er) from RMarkdown to Word.</title>
    <link href="http://njtierney.github.io/rmarkdown/r/2015/02/09/Working-Smoothlyer-from-RMarkdown-to-Word/"/>
-   <updated>2015-02-09T00:00:00+01:00</updated>
+   <updated>2015-02-09T00:00:00+10:00</updated>
    <id>http://njtierney.github.io/rmarkdown/r/2015/02/09/Working-Smoothlyer-from-RMarkdown-to-Word</id>
    <content type="html">&lt;p&gt;I’m a pretty huge fan of RMarkdown, as it is a great way for me to write my code and my text together. It seems really a rather a natural thing to do. You write about your analyses, and the code is there. You update some function or some data, and your figures and tables update with it.&lt;/p&gt;
 
@@ -539,7 +620,7 @@ library(knitr)&lt;/p&gt;
  <entry>
    <title>Fix for `gbm.plot`</title>
    <link href="http://njtierney.github.io/r/2014/04/22/gbm-plot-fix/"/>
-   <updated>2014-04-22T00:00:00+02:00</updated>
+   <updated>2014-04-22T00:00:00+10:00</updated>
    <id>http://njtierney.github.io/r/2014/04/22/gbm-plot-fix</id>
    <content type="html">&lt;p&gt;I’m currently in the process of writing a report using boosted regression trees.  I’m currently using guidelines provided by Elith et al &lt;a href=&quot;http://avesbiodiv.mncn.csic.es/estadistica/bt1.pdf&quot;&gt;here&lt;/a&gt;, and &lt;a href=&quot;http://cran.r-project.org/web/packages/dismo/vignettes/brt.pdf&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
 
@@ -560,7 +641,7 @@ library(knitr)&lt;/p&gt;
  <entry>
    <title>A Grammar of Models?</title>
    <link href="http://njtierney.github.io/r/statistics/2013/11/10/grammar-of-models/"/>
-   <updated>2013-11-10T00:00:00+01:00</updated>
+   <updated>2013-11-10T00:00:00+10:00</updated>
    <id>http://njtierney.github.io/r/statistics/2013/11/10/grammar-of-models</id>
    <content type="html">&lt;p&gt;I came across &lt;a href=&quot;http://statr.me/2013/09/a-conversation-with-hadley-wickham/&quot;&gt;this interview&lt;/a&gt; with Hadley Wickham, the creator of one of the most widely used R packages, &lt;code class=&quot;highlighter-rouge&quot;&gt;ggplot 2&lt;/code&gt;. I thought that this quote was interesting:&lt;/p&gt;
 
@@ -574,14 +655,14 @@ library(knitr)&lt;/p&gt;
 
 &lt;p&gt;And it got me thinking, would it be possible for statistical models to be written like ggplot, with a grammar of models?  It seems impossible, and maybe I’m totally not reading the interview correctly, but it got me thinking. What would it look like? Something like this?&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;r
-ggmodel(data = my.data,
-        fun = Y ~ V1 + V2 + V3) %&amp;gt;%
-        model_nest(V1 ~ Y1 + Y2 + e,
-                   e ~ norm(0,1)) %&amp;gt;%
-        m.impute(m = 4) %&amp;gt;%
-        time_period(type = unequal)
-&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;ggmodel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;my.data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fun&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Y&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;V&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;V&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;V&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&amp;gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;model_nest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;V&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Y&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Y&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+                   &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;norm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&amp;gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;m.impute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;m&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&amp;gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;time_period&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;unequal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;What do you think?&lt;/p&gt;
 </content>
@@ -590,7 +671,7 @@ ggmodel(data = my.data,
  <entry>
    <title>Statistics for Journalists</title>
    <link href="http://njtierney.github.io/statistics/teaching/2013/11/01/statistics-for-journalists/"/>
-   <updated>2013-11-01T00:00:00+01:00</updated>
+   <updated>2013-11-01T00:00:00+10:00</updated>
    <id>http://njtierney.github.io/statistics/teaching/2013/11/01/statistics-for-journalists</id>
    <content type="html">&lt;p&gt;In November 2013 I had the opportunity to work with the Australian Science Media Centre (AusSMC) and produce a talk explaining numbers and statistics.  The deal was that it was 11 concepts on numbers and stats in 20 minutes.  The concepts being:&lt;/p&gt;
 
@@ -628,7 +709,7 @@ ggmodel(data = my.data,
  <entry>
    <title>Statistics Can Do Anything?</title>
    <link href="http://njtierney.github.io/statistics/blag/2013/09/01/stats-can-do-anything/"/>
-   <updated>2013-09-01T00:00:00+02:00</updated>
+   <updated>2013-09-01T00:00:00+10:00</updated>
    <id>http://njtierney.github.io/statistics/blag/2013/09/01/stats-can-do-anything</id>
    <content type="html">&lt;p&gt;Sometimes people are fond of saying:&lt;/p&gt;
 &lt;blockquote&gt;&quot;Well, &lt;em&gt;you know&lt;/em&gt;, the thing with statistics is that you can get the statistics to say whatever you want.&quot;&lt;/blockquote&gt;
@@ -665,7 +746,7 @@ ggmodel(data = my.data,
 &lt;p&gt;And so on.&lt;/p&gt;
 
 &lt;p&gt;So when someone says that statistics can be used to prove anything, I like to replace this with:&lt;/p&gt;
-&lt;blockquote&gt;&quot;You can argue any point, and sometimes the people who don&#39;t know any better will nod their head quietly and whisper &lt;em&gt;&quot;&lt;/em&gt;&lt;em&gt;statistics said it was so&quot; &quot;&lt;/em&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;&quot;You can argue any point, and sometimes the people who don't know any better will nod their head quietly and whisper &lt;em&gt;&quot;&lt;/em&gt;&lt;em&gt;statistics said it was so&quot; &quot;&lt;/em&gt;&lt;/blockquote&gt;
 &lt;p&gt;Others will nod their heads too.&lt;/p&gt;
 
 &lt;p&gt;But it is your job as a good researcher / reader to ask the all important:&lt;/p&gt;
@@ -676,7 +757,7 @@ ggmodel(data = my.data,
  <entry>
    <title>Monte Carlo Approximiation</title>
    <link href="http://njtierney.github.io/statistics/2013/06/26/monte-carlo-approx/"/>
-   <updated>2013-06-26T00:00:00+02:00</updated>
+   <updated>2013-06-26T00:00:00+10:00</updated>
    <id>http://njtierney.github.io/statistics/2013/06/26/monte-carlo-approx</id>
    <content type="html">&lt;p&gt;There are a lot of explanations of Monte Carlo approximation out there.&lt;/p&gt;
 
@@ -692,8 +773,8 @@ ggmodel(data = my.data,
 &lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;Wikipedia definition:&lt;/strong&gt;&lt;/p&gt;
 &lt;p style=&quot;text-align: center;&quot;&gt;&lt;em&gt;&quot;Analytic Solution&quot; &lt;/em&gt;&lt;/p&gt;
 &lt;p style=&quot;text-align: center;&quot;&gt;&lt;em&gt;- A solution to a problem that can be written in &quot;closed form&quot; in terms of known functions, constants, etc.&lt;/em&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align: left;&quot;&gt;I find that such a definition relies on the reader knowing what the words &#39;closed form&#39;, &#39;known functions&#39; and &#39;constants&#39; are.&lt;/p&gt;
-&lt;p style=&quot;text-align: center;&quot;&gt;So here&#39;s &lt;strong&gt;my definition:&lt;/strong&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;I find that such a definition relies on the reader knowing what the words 'closed form', 'known functions' and 'constants' are.&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;So here's &lt;strong&gt;my definition:&lt;/strong&gt;&lt;/p&gt;
 &lt;p style=&quot;text-align: center;&quot;&gt;&lt;em&gt;&quot;Analytic Solution&quot;&lt;/em&gt;&lt;/p&gt;
 &lt;p style=&quot;text-align: center;&quot;&gt;&lt;em&gt;A solution where everything needed to solve a particular question is presented clearly and logically, with all assumptions defined.
 &lt;/em&gt;&lt;/p&gt;
@@ -710,7 +791,7 @@ ggmodel(data = my.data,
 &lt;/ul&gt;
 &lt;/li&gt;
 	&lt;li&gt;And a pen and paper&lt;/li&gt;
-	&lt;li&gt;(and maybe a calculator, but this was the 1940s so it is less likely.  But then, he &lt;em&gt;was&lt;/em&gt; a famous mathematician - it is more likely he would have had access to a computer)  to arrive at a &#39;perfect solution&#39;.&lt;/li&gt;
+	&lt;li&gt;(and maybe a calculator, but this was the 1940s so it is less likely.  But then, he &lt;em&gt;was&lt;/em&gt; a famous mathematician - it is more likely he would have had access to a computer)  to arrive at a 'perfect solution'.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The analytic solution ends up looking really complicated, and is&lt;em&gt; quite&lt;/em&gt; complex.&lt;/p&gt;
 
@@ -747,7 +828,7 @@ ggmodel(data = my.data,
  <entry>
    <title>Define: Analytically</title>
    <link href="http://njtierney.github.io/statistics/2013/06/20/analytically/"/>
-   <updated>2013-06-20T00:00:00+02:00</updated>
+   <updated>2013-06-20T00:00:00+10:00</updated>
    <id>http://njtierney.github.io/statistics/2013/06/20/analytically</id>
    <content type="html">&lt;p&gt;What does the word &lt;em&gt;analytical&lt;/em&gt;, mean?&lt;/p&gt;
 
@@ -783,7 +864,7 @@ ggmodel(data = my.data,
  <entry>
    <title>Humanity</title>
    <link href="http://njtierney.github.io/blag/2013/06/12/humanity/"/>
-   <updated>2013-06-12T00:00:00+02:00</updated>
+   <updated>2013-06-12T00:00:00+10:00</updated>
    <id>http://njtierney.github.io/blag/2013/06/12/humanity</id>
    <content type="html">&lt;p&gt;A friend of mine posted an interesting article on facebook today - &lt;a href=&quot;http://theconversation.com/honing-the-mind-and-nurturing-the-soul-why-the-humanities-are-underrated-15027&quot;&gt;“Honing the mind and nurturing the soul: why the humanities are underrated”&lt;/a&gt;.  The piece is written by Professor Steven Schwartz, a distinguished academic currently residing at Oxford University after holding Vice Chancellor positions in Australia and the UK.&lt;/p&gt;
 

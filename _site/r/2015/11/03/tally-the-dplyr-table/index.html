@@ -155,26 +155,25 @@
 
 <p><code class="highlighter-rouge">table</code> gives you the frequencies of something in a category. Let’s use the <code class="highlighter-rouge">iris</code> dataset to illustrate. Let’s say we want to know how many are in each species in <code class="highlighter-rouge">iris</code>.</p>
 
-<p><code class="highlighter-rouge">r
-table(iris$Species)
-</code></p>
+<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">table</span><span class="p">(</span><span class="n">iris</span><span class="o">$</span><span class="n">Species</span><span class="p">)</span><span class="w">
+</span></code></pre>
+</div>
 
-<p><code class="highlighter-rouge">
-## 
+<div class="highlighter-rouge"><pre class="highlight"><code>## 
 ##     setosa versicolor  virginica 
 ##         50         50         50
-</code></p>
+</code></pre>
+</div>
 
 <p>So there happen to be 50 in each of the species.</p>
 
 <p>But if you want to present this in a tidy dataframe, where each column is a variable, and each row is an observation, you’d have to do some annoying reformating. But need not dispair, <code class="highlighter-rouge">dplyr</code> has us covered.</p>
 
-<p><code class="highlighter-rouge">r
-library(dplyr)
-</code></p>
+<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">library</span><span class="p">(</span><span class="n">dplyr</span><span class="p">)</span><span class="w">
+</span></code></pre>
+</div>
 
-<p><code class="highlighter-rouge">
-## 
+<div class="highlighter-rouge"><pre class="highlight"><code>## 
 ## Attaching package: 'dplyr'
 ## 
 ## The following objects are masked from 'package:stats':
@@ -184,25 +183,26 @@ library(dplyr)
 ## The following objects are masked from 'package:base':
 ## 
 ##     intersect, setdiff, setequal, union
-</code></p>
+</code></pre>
+</div>
 
-<p>```r
-iris.tally &lt;- iris %&gt;%
-  group_by(Species) %&gt;% 
-  tally</p>
+<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">iris.tally</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">iris</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
+  </span><span class="n">group_by</span><span class="p">(</span><span class="n">Species</span><span class="p">)</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> 
+  </span><span class="n">tally</span><span class="w">
 
-<p>iris.tally
-```</p>
+</span><span class="n">iris.tally</span><span class="w">
+</span></code></pre>
+</div>
 
-<p><code class="highlighter-rouge">
-## Source: local data frame [3 x 2]
+<div class="highlighter-rouge"><pre class="highlight"><code>## Source: local data frame [3 x 2]
 ## 
 ##      Species     n
 ##       (fctr) (int)
 ## 1     setosa    50
 ## 2 versicolor    50
 ## 3  virginica    50
-</code></p>
+</code></pre>
+</div>
 
 <p>This gives us a neat dataframe, where we get Species as a column, and the number of observations in each Species.</p>
 
@@ -210,11 +210,11 @@ iris.tally &lt;- iris %&gt;%
 
 <p>So I could now do this:</p>
 
-<p>```r
-library(knitr)</p>
+<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">library</span><span class="p">(</span><span class="n">knitr</span><span class="p">)</span><span class="w">
 
-<p>kable(iris.tally)
-```</p>
+</span><span class="n">kable</span><span class="p">(</span><span class="n">iris.tally</span><span class="p">)</span><span class="w">
+</span></code></pre>
+</div>
 
 <table>
   <thead>

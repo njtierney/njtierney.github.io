@@ -163,14 +163,14 @@
 
 <p>And it got me thinking, would it be possible for statistical models to be written like ggplot, with a grammar of models?  It seems impossible, and maybe I’m totally not reading the interview correctly, but it got me thinking. What would it look like? Something like this?</p>
 
-<p><code class="highlighter-rouge">r
-ggmodel(data = my.data,
-        fun = Y ~ V1 + V2 + V3) %&gt;%
-        model_nest(V1 ~ Y1 + Y2 + e,
-                   e ~ norm(0,1)) %&gt;%
-        m.impute(m = 4) %&gt;%
-        time_period(type = unequal)
-</code></p>
+<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">ggmodel</span><span class="p">(</span><span class="n">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">my.data</span><span class="p">,</span><span class="w">
+        </span><span class="n">fun</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Y</span><span class="w"> </span><span class="o">~</span><span class="w"> </span><span class="n">V</span><span class="m">1</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">V</span><span class="m">2</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">V</span><span class="m">3</span><span class="p">)</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
+        </span><span class="n">model_nest</span><span class="p">(</span><span class="n">V</span><span class="m">1</span><span class="w"> </span><span class="o">~</span><span class="w"> </span><span class="n">Y</span><span class="m">1</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">Y</span><span class="m">2</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">e</span><span class="p">,</span><span class="w">
+                   </span><span class="n">e</span><span class="w"> </span><span class="o">~</span><span class="w"> </span><span class="n">norm</span><span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="m">1</span><span class="p">))</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
+        </span><span class="n">m.impute</span><span class="p">(</span><span class="n">m</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">4</span><span class="p">)</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
+        </span><span class="n">time_period</span><span class="p">(</span><span class="n">type</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">unequal</span><span class="p">)</span><span class="w">
+</span></code></pre>
+</div>
 
 <p>What do you think?</p>
 
