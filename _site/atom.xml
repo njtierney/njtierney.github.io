@@ -4,13 +4,58 @@
  <title>Nicholas Tierney</title>
  <link href="http://njtierney.github.io/atom.xml" rel="self"/>
  <link href="http://njtierney.github.io/"/>
- <updated>2016-08-23T17:11:25+10:00</updated>
+ <updated>2016-08-26T12:02:05+10:00</updated>
  <id>http://njtierney.github.io</id>
  <author>
    <name>Nicholas Tierney</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Simple Guide to S3 Methods</title>
+   <link href="http://njtierney.github.io/r/2016/08/26/SimpleS3/"/>
+   <updated>2016-08-26T00:00:00+10:00</updated>
+   <id>http://njtierney.github.io/r/2016/08/26/SimpleS3</id>
+   <content type="html">&lt;p&gt;So I’ve just submitted my first article to &lt;a href=&quot;https://journal.r-project.org/&quot;&gt;the R Journal&lt;/a&gt;!&lt;/p&gt;
+
+&lt;div style=&quot;width: auto&quot;&gt;
+&lt;img src=&quot;https://media.giphy.com/media/1PMVNNKVIL8Ig/giphy.gif&quot; alt=&quot;Woohooo!&quot; style=&quot;margin: 0px auto;display:block; width: 60%;max-height: 60%; PADDING-BOTTOM: 15px&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The paper, “A Simple Guide to S3 Methods”, is my attempt at a quick and simple guide to using S3 methods in R.  Although not my &lt;a href=&quot;bmjopen.bmj.com/content/5/6/e007450.full&quot;&gt;first publication&lt;/a&gt;, it is my first &lt;em&gt;solo&lt;/em&gt; publication, which is exciting.&lt;/p&gt;
+
+&lt;p&gt;You can &lt;a href=&quot;https://arxiv.org/abs/1608.07161&quot;&gt;read the pre-print on arxiv here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;why-write-it&quot;&gt;Why write it?&lt;/h1&gt;
+
+&lt;p&gt;Because I think S3 methods are underused. They are elegant, simple, and &lt;strong&gt;really useful&lt;/strong&gt;. Hadley Wickham describes them nicely in &lt;a href=&quot;http://adv-r.had.co.nz/OO-essentials.html#s3&quot;&gt;Advanced R&lt;/a&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;S3 is informal and ad hoc, but it has a certain elegance in its minimalism: you can’t take away any part of it and still have a useful [Object Oriented] system.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;how-it-started&quot;&gt;How it started&lt;/h1&gt;
+
+&lt;p&gt;Last year I ripped some functions from a monster &lt;code class=&quot;highlighter-rouge&quot;&gt;if-then-else&lt;/code&gt; statement, and created individual S3 methods. I kept some notes as I did this, which eventually turned into a draft blog post. However, a colleague suggested I turn the blog post into a publication for the R Journal. Why not?&lt;/p&gt;
+
+&lt;h1 id=&quot;the-process&quot;&gt;The process&lt;/h1&gt;
+
+&lt;p&gt;I got it about 95% of the way relatively quickly thanks to fine folks like &lt;a href=&quot;https://github.com/MilesMcBain&quot;&gt;Miles McBain&lt;/a&gt; providing valuable feedback, and to the R package &lt;a href=&quot;https://github.com/rstudio/rticles&quot;&gt;rticles&lt;/a&gt; which provides a pre-built R Journal template.&lt;/p&gt;
+
+&lt;p&gt;However, I ran into some &lt;a href=&quot;https://github.com/rstudio/rticles/issues/70&quot;&gt;issues around special characters in rticles&lt;/a&gt;, which halted my progress. It looked unappealing to fix in LaTeX, so it sat on the backburner.&lt;/p&gt;
+
+&lt;h2 id=&quot;until&quot;&gt;Until…?&lt;/h2&gt;
+
+&lt;p&gt;I started updating my CV last week. I was reminded that I still had not submitted the S3 methods paper. I had a brainwave that I could get around my problem by silently running the code chunk and then copying and pasting the code output manually in markdown. This worked rather marvelously. You can see the RMarkdown chunk &lt;a href=&quot;https://raw.githubusercontent.com/njtierney/A-Simple-Guide-to-S3-Methods/master/SimpleS3.Rmd&quot;&gt;here on github&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;further-thoughts-on-the-paper&quot;&gt;Further thoughts on the paper.&lt;/h1&gt;
+
+&lt;p&gt;The paper might miss out on some of the finer features of S3 methods, but its main goal was to get people using S3 methods by providing motivation for &lt;strong&gt;why&lt;/strong&gt; they might want to use them, and why they &lt;strong&gt;should&lt;/strong&gt; use them as opposed to writing something like a series of if-then-else loops.&lt;/p&gt;
+
+&lt;p&gt;I’m excited to see feedback from the R Journal, hopefully I didn’t miss something terribly important about S3 methods.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Science Meets Parliament</title>
