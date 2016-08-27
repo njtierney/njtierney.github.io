@@ -4,7 +4,7 @@
  <title>Nicholas Tierney</title>
  <link href="http://njtierney.github.io/atom.xml" rel="self"/>
  <link href="http://njtierney.github.io/"/>
- <updated>2016-08-26T12:02:05+10:00</updated>
+ <updated>2016-08-26T12:02:13+10:00</updated>
  <id>http://njtierney.github.io</id>
  <author>
    <name>Nicholas Tierney</name>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Simple Guide to S3 Methods</title>
-   <link href="http://njtierney.github.io/r/2016/08/26/SimpleS3/"/>
+   <link href="http://njtierney.github.io/r/rbloggers/2016/08/26/SimpleS3/"/>
    <updated>2016-08-26T00:00:00+10:00</updated>
-   <id>http://njtierney.github.io/r/2016/08/26/SimpleS3</id>
+   <id>http://njtierney.github.io/r/rbloggers/2016/08/26/SimpleS3</id>
    <content type="html">&lt;p&gt;So I’ve just submitted my first article to &lt;a href=&quot;https://journal.r-project.org/&quot;&gt;the R Journal&lt;/a&gt;!&lt;/p&gt;
 
 &lt;div style=&quot;width: auto&quot;&gt;
