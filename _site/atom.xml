@@ -4,7 +4,7 @@
  <title>Nicholas Tierney</title>
  <link href="http://njtierney.github.io/atom.xml" rel="self"/>
  <link href="http://njtierney.github.io/"/>
- <updated>2016-08-26T12:02:13+10:00</updated>
+ <updated>2016-09-01T10:03:18+10:00</updated>
  <id>http://njtierney.github.io</id>
  <author>
    <name>Nicholas Tierney</name>
@@ -23,7 +23,7 @@
 &lt;img src=&quot;https://media.giphy.com/media/1PMVNNKVIL8Ig/giphy.gif&quot; alt=&quot;Woohooo!&quot; style=&quot;margin: 0px auto;display:block; width: 60%;max-height: 60%; PADDING-BOTTOM: 15px&quot; /&gt;
 &lt;/div&gt;
 
-&lt;p&gt;The paper, “A Simple Guide to S3 Methods”, is my attempt at a quick and simple guide to using S3 methods in R.  Although not my &lt;a href=&quot;bmjopen.bmj.com/content/5/6/e007450.full&quot;&gt;first publication&lt;/a&gt;, it is my first &lt;em&gt;solo&lt;/em&gt; publication, which is exciting.&lt;/p&gt;
+&lt;p&gt;The paper, “A Simple Guide to S3 Methods”, is my attempt at a quick and simple guide to using S3 methods in R. Although not my &lt;a href=&quot;http://bmjopen.bmj.com/content/5/6/e007450.full&quot;&gt;first publication&lt;/a&gt;, it is my first &lt;em&gt;solo&lt;/em&gt; publication, which is exciting.&lt;/p&gt;
 
 &lt;p&gt;You can &lt;a href=&quot;https://arxiv.org/abs/1608.07161&quot;&gt;read the pre-print on arxiv here&lt;/a&gt;.&lt;/p&gt;
 
