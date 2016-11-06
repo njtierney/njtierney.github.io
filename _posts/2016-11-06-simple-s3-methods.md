@@ -1,6 +1,8 @@
 ---
 title: "A Simple Guide to S3 Methods"
 author: "Nicholas Tierney"
+layout: post
+comments: true
 date: "6 November 2016"
 output: html_document
 categories:
