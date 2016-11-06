@@ -3,8 +3,8 @@
 	<channel>
 		<title>njtierney - rbloggers</title>
 		<description>Posts categorized as 'rbloggers'</description>
-		<link>http://njtierney.github.io</link>
-		<atom:link href="http://njtierney.github.io/feed.rbloggers.xml" rel="self" type="application/rss+xml" />
+		<link>http://localhost:4000</link>
+		<atom:link href="http://localhost:4000/feed.rbloggers.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>A Simple Guide to S3 Methods</title>
@@ -432,8 +432,8 @@ However, one must ask how sustainable this would be for an entire programming la
 &lt;p&gt;This guide to S3 methods was written to provide R users with the minimal amount of information to start building their own S3 methods. For a more complete treatment on S3 methods, see &lt;a href=&quot;&quot;&gt;Advanced-R&lt;/a&gt;, &lt;a href=&quot;&quot;&gt;R Packages&lt;/a&gt;, and the &lt;a href=&quot;&quot;&gt;official S3 documentation&lt;/a&gt;.&lt;/p&gt;
 </description>
 				<pubDate>Sun, 06 Nov 2016 00:00:00 +1000</pubDate>
-				<link>http://njtierney.github.io/r/missing%20data/rbloggers/2016/11/06/simple-s3-methods/</link>
-				<guid isPermaLink="true">http://njtierney.github.io/r/missing%20data/rbloggers/2016/11/06/simple-s3-methods/</guid>
+				<link>http://localhost:4000/r/missing%20data/rbloggers/2016/11/06/simple-s3-methods/</link>
+				<guid isPermaLink="true">http://localhost:4000/r/missing%20data/rbloggers/2016/11/06/simple-s3-methods/</guid>
 			</item>
 		
 			<item>
@@ -477,8 +477,8 @@ However, one must ask how sustainable this would be for an entire programming la
 &lt;p&gt;I’m excited to see feedback from the R Journal, hopefully I didn’t miss something terribly important about S3 methods.&lt;/p&gt;
 </description>
 				<pubDate>Fri, 26 Aug 2016 00:00:00 +1000</pubDate>
-				<link>http://njtierney.github.io/r/rbloggers/2016/08/26/SimpleS3/</link>
-				<guid isPermaLink="true">http://njtierney.github.io/r/rbloggers/2016/08/26/SimpleS3/</guid>
+				<link>http://localhost:4000/r/rbloggers/2016/08/26/SimpleS3/</link>
+				<guid isPermaLink="true">http://localhost:4000/r/rbloggers/2016/08/26/SimpleS3/</guid>
 			</item>
 		
 			<item>
@@ -510,8 +510,8 @@ However, one must ask how sustainable this would be for an entire programming la
 &lt;p&gt;It looks like WOMBAT might be an annual occurence, I would highly encourage attending the next one if you have the opportunity. Thank you once more to the conference Organisers for putting together such an awesome conference. Looking forward to the next one!&lt;/p&gt;
 </description>
 				<pubDate>Sun, 06 Mar 2016 00:00:00 +1000</pubDate>
-				<link>http://njtierney.github.io/blag/rbloggers/2016/03/06/wombat-2016-wrap-up/</link>
-				<guid isPermaLink="true">http://njtierney.github.io/blag/rbloggers/2016/03/06/wombat-2016-wrap-up/</guid>
+				<link>http://localhost:4000/blag/rbloggers/2016/03/06/wombat-2016-wrap-up/</link>
+				<guid isPermaLink="true">http://localhost:4000/blag/rbloggers/2016/03/06/wombat-2016-wrap-up/</guid>
 			</item>
 		
 			<item>
@@ -594,8 +594,8 @@ However, one must ask how sustainable this would be for an entire programming la
 &lt;p&gt;Thoughts? Write them below.&lt;/p&gt;
 </description>
 				<pubDate>Tue, 01 Dec 2015 00:00:00 +1000</pubDate>
-				<link>http://njtierney.github.io/r/missing%20data/rbloggers/2015/12/01/ggplot-missing-data/</link>
-				<guid isPermaLink="true">http://njtierney.github.io/r/missing%20data/rbloggers/2015/12/01/ggplot-missing-data/</guid>
+				<link>http://localhost:4000/r/missing%20data/rbloggers/2015/12/01/ggplot-missing-data/</link>
+				<guid isPermaLink="true">http://localhost:4000/r/missing%20data/rbloggers/2015/12/01/ggplot-missing-data/</guid>
 			</item>
 		
 	</channel>
