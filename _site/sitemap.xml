@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://njtierney.github.io/r/missing%20data/rbloggers/2016/11/06/simple-s3-methods/</loc>
+<lastmod>2016-11-06T00:00:00+10:00</lastmod>
+</url>
+<url>
 <loc>http://njtierney.github.io/r/rbloggers/2016/08/26/SimpleS3/</loc>
 <lastmod>2016-08-26T00:00:00+10:00</lastmod>
 </url>
@@ -19,6 +23,10 @@
 <url>
 <loc>http://njtierney.github.io/r/missing%20data/rbloggers/2015/12/01/ggplot-missing-data/</loc>
 <lastmod>2015-12-01T00:00:00+10:00</lastmod>
+</url>
+<url>
+<loc>http://njtierney.github.io/r/missing%20data/2015/11/12/ggplot-missing-data/</loc>
+<lastmod>2015-11-12T00:00:00+10:00</lastmod>
 </url>
 <url>
 <loc>http://njtierney.github.io/jekyll/2015/11/11/how-i-built-my-site/</loc>
