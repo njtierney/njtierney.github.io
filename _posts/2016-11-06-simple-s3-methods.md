@@ -13,7 +13,7 @@ categories:
 
 A few months ago [I wrote about](http://www.njtierney.com/r/rbloggers/2016/08/26/SimpleS3/) my first solo author submission to the [R Journal](https://journal.r-project.org/) entitled, "A Simple Guide to S3 Methods". Unfortunately the article didn't make it to publication on the R Journal, but admittedly that might have been a bit of a long shot.
 
-So, I thought that it might be good if I instead share the article here on my blog and r bloggers, so that people can comment below and share their thoughts. 
+So, I thought that it might be good if I instead share the article here on my blog and r bloggers, so that people can comment below and share their thoughts.
 
 It is not a complete guide to S3 methods, but more a primer the on *what* *how*, and *why* S3.
 
@@ -26,7 +26,7 @@ A standard principle of programming is DRY - Don't Repeat Yourself. Under this a
 S3 methods in the R programming language are a way of writing functions in R that do different things for objects of different classes. S3 methods are so named as the methods shipped with the release of the third version of the "S" programming language, which R was heavily based upon [@chambers1992, @rclassmethods, @R]. Hence, methods for S 3.0 = S3 Methods.
 
 The function `summary()` is an S3 method. When applied to an object of class `data.frame`, `summary` shows descriptive statistics (Mean, SD, etc.) for each variable. For example, `iris` is of class `data.frame`:
-  
+
 
 ```r
 class(iris)
@@ -44,47 +44,47 @@ summary(iris)
 ```
 
 ```
-##   Sepal.Length    Sepal.Width     Petal.Length    Petal.Width   
-##  Min.   :4.300   Min.   :2.000   Min.   :1.000   Min.   :0.100  
-##  1st Qu.:5.100   1st Qu.:2.800   1st Qu.:1.600   1st Qu.:0.300  
-##  Median :5.800   Median :3.000   Median :4.350   Median :1.300  
-##  Mean   :5.843   Mean   :3.057   Mean   :3.758   Mean   :1.199  
-##  3rd Qu.:6.400   3rd Qu.:3.300   3rd Qu.:5.100   3rd Qu.:1.800  
-##  Max.   :7.900   Max.   :4.400   Max.   :6.900   Max.   :2.500  
-##        Species  
-##  setosa    :50  
-##  versicolor:50  
-##  virginica :50  
-##                 
-##                 
-## 
+##   Sepal.Length    Sepal.Width     Petal.Length    Petal.Width
+##  Min.   :4.300   Min.   :2.000   Min.   :1.000   Min.   :0.100
+##  1st Qu.:5.100   1st Qu.:2.800   1st Qu.:1.600   1st Qu.:0.300
+##  Median :5.800   Median :3.000   Median :4.350   Median :1.300
+##  Mean   :5.843   Mean   :3.057   Mean   :3.758   Mean   :1.199
+##  3rd Qu.:6.400   3rd Qu.:3.300   3rd Qu.:5.100   3rd Qu.:1.800
+##  Max.   :7.900   Max.   :4.400   Max.   :6.900   Max.   :2.500
+##        Species
+##  setosa    :50
+##  versicolor:50
+##  virginica :50
+##
+##
+##
 ```
 
 `summary` also performs differently when applied to different object. In fact, you can find all the classes that work with an S3 method by typing the following:
-  
+
 
 ```r
 methods(summary)
 ```
 
 ```
-##  [1] summary.aov                    summary.aovlist*              
+##  [1] summary.aov                    summary.aovlist*
 ##  [3] summary.aspell*                summary.check_packages_in_dir*
-##  [5] summary.connection             summary.data.frame            
-##  [7] summary.Date                   summary.default               
-##  [9] summary.ecdf*                  summary.factor                
-## [11] summary.glm                    summary.infl*                 
-## [13] summary.lm                     summary.loess*                
-## [15] summary.manova                 summary.matrix                
-## [17] summary.mlm*                   summary.nls*                  
-## [19] summary.packageStatus*         summary.PDF_Dictionary*       
-## [21] summary.PDF_Stream*            summary.POSIXct               
-## [23] summary.POSIXlt                summary.ppr*                  
-## [25] summary.prcomp*                summary.princomp*             
-## [27] summary.proc_time              summary.srcfile               
-## [29] summary.srcref                 summary.stepfun               
-## [31] summary.stl*                   summary.table                 
-## [33] summary.tukeysmooth*          
+##  [5] summary.connection             summary.data.frame
+##  [7] summary.Date                   summary.default
+##  [9] summary.ecdf*                  summary.factor
+## [11] summary.glm                    summary.infl*
+## [13] summary.lm                     summary.loess*
+## [15] summary.manova                 summary.matrix
+## [17] summary.mlm*                   summary.nls*
+## [19] summary.packageStatus*         summary.PDF_Dictionary*
+## [21] summary.PDF_Stream*            summary.POSIXct
+## [23] summary.POSIXlt                summary.ppr*
+## [25] summary.prcomp*                summary.princomp*
+## [27] summary.proc_time              summary.srcfile
+## [29] summary.srcref                 summary.stepfun
+## [31] summary.stl*                   summary.table
+## [33] summary.tukeysmooth*
 ## see '?methods' for accessing help and source code
 ```
 
@@ -100,23 +100,23 @@ summary(lm_iris)
 ```
 
 ```
-## 
+##
 ## Call:
 ## lm(formula = Sepal.Length ~ Sepal.Width, data = iris)
-## 
+##
 ## Residuals:
-##     Min      1Q  Median      3Q     Max 
-## -1.5561 -0.6333 -0.1120  0.5579  2.2226 
-## 
+##     Min      1Q  Median      3Q     Max
+## -1.5561 -0.6333 -0.1120  0.5579  2.2226
+##
 ## Coefficients:
-##             Estimate Std. Error t value Pr(>|t|)    
+##             Estimate Std. Error t value Pr(>|t|)
 ## (Intercept)   6.5262     0.4789   13.63   <2e-16 ***
-## Sepal.Width  -0.2234     0.1551   -1.44    0.152    
+## Sepal.Width  -0.2234     0.1551   -1.44    0.152
 ## ---
 ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-## 
+##
 ## Residual standard error: 0.8251 on 148 degrees of freedom
-## Multiple R-squared:  0.01382,	Adjusted R-squared:  0.007159 
+## Multiple R-squared:  0.01382,	Adjusted R-squared:  0.007159
 ## F-statistic: 2.074 on 1 and 148 DF,  p-value: 0.1519
 ```
 
@@ -149,20 +149,20 @@ summary.data.frame(iris)
 ```
 
 ```
-##   Sepal.Length    Sepal.Width     Petal.Length    Petal.Width   
-##  Min.   :4.300   Min.   :2.000   Min.   :1.000   Min.   :0.100  
-##  1st Qu.:5.100   1st Qu.:2.800   1st Qu.:1.600   1st Qu.:0.300  
-##  Median :5.800   Median :3.000   Median :4.350   Median :1.300  
-##  Mean   :5.843   Mean   :3.057   Mean   :3.758   Mean   :1.199  
-##  3rd Qu.:6.400   3rd Qu.:3.300   3rd Qu.:5.100   3rd Qu.:1.800  
-##  Max.   :7.900   Max.   :4.400   Max.   :6.900   Max.   :2.500  
-##        Species  
-##  setosa    :50  
-##  versicolor:50  
-##  virginica :50  
-##                 
-##                 
-## 
+##   Sepal.Length    Sepal.Width     Petal.Length    Petal.Width
+##  Min.   :4.300   Min.   :2.000   Min.   :1.000   Min.   :0.100
+##  1st Qu.:5.100   1st Qu.:2.800   1st Qu.:1.600   1st Qu.:0.300
+##  Median :5.800   Median :3.000   Median :4.350   Median :1.300
+##  Mean   :5.843   Mean   :3.057   Mean   :3.758   Mean   :1.199
+##  3rd Qu.:6.400   3rd Qu.:3.300   3rd Qu.:5.100   3rd Qu.:1.800
+##  Max.   :7.900   Max.   :4.400   Max.   :6.900   Max.   :2.500
+##        Species
+##  setosa    :50
+##  versicolor:50
+##  virginica :50
+##
+##
+##
 ```
 
 which is the same as `summary(iris)`
@@ -189,23 +189,23 @@ summary.lm(lm_iris)
 ```
 
 ```
-## 
+##
 ## Call:
 ## lm(formula = Sepal.Length ~ Sepal.Width, data = iris)
-## 
+##
 ## Residuals:
-##     Min      1Q  Median      3Q     Max 
-## -1.5561 -0.6333 -0.1120  0.5579  2.2226 
-## 
+##     Min      1Q  Median      3Q     Max
+## -1.5561 -0.6333 -0.1120  0.5579  2.2226
+##
 ## Coefficients:
-##             Estimate Std. Error t value Pr(>|t|)    
+##             Estimate Std. Error t value Pr(>|t|)
 ## (Intercept)   6.5262     0.4789   13.63   <2e-16 ***
-## Sepal.Width  -0.2234     0.1551   -1.44    0.152    
+## Sepal.Width  -0.2234     0.1551   -1.44    0.152
 ## ---
 ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-## 
+##
 ## Residual standard error: 0.8251 on 148 degrees of freedom
-## Multiple R-squared:  0.01382,	Adjusted R-squared:  0.007159 
+## Multiple R-squared:  0.01382,	Adjusted R-squared:  0.007159
 ## F-statistic: 2.074 on 1 and 148 DF,  p-value: 0.1519
 ```
 
@@ -233,37 +233,37 @@ summary.data.frame(lm_iris)
 ```
 
 ```
-##   coefficients       residuals          effects               rank  
-##  Min.   :-0.2234   Min.   :-1.5561   Min.   :-71.56593   Min.   :2  
-##  1st Qu.: 1.4640   1st Qu.:-0.6333   1st Qu.: -0.65192   1st Qu.:2  
-##  Median : 3.1514   Median :-0.1120   Median : -0.00897   Median :2  
-##  Mean   : 3.1514   Mean   : 0.0000   Mean   : -0.42040   Mean   :2  
-##  3rd Qu.: 4.8388   3rd Qu.: 0.5579   3rd Qu.:  0.61051   3rd Qu.:2  
-##  Max.   : 6.5262   Max.   : 2.2225   Max.   :  2.15225   Max.   :2  
-##  fitted.values       assign     qr.Length  qr.Class  qr.Mode  df.residual 
-##  Min.   :5.543   Min.   :0.00   300      -none-   numeric    Min.   :148  
-##  1st Qu.:5.789   1st Qu.:0.25     2      -none-   numeric    1st Qu.:148  
-##  Median :5.856   Median :0.50     2      -none-   numeric    Median :148  
-##  Mean   :5.843   Mean   :0.50     1      -none-   numeric    Mean   :148  
-##  3rd Qu.:5.901   3rd Qu.:0.75     1      -none-   numeric    3rd Qu.:148  
-##  Max.   :6.080   Max.   :1.00                                Max.   :148  
-##    xlevels         call         terms        
-##  Length:0      Length:3      Length:3        
-##  Class :list   Class :call   Class1:terms    
-##  Mode  :list   Mode  :call   Class2:formula  
-##                              Mode  :call     
-##                                              
-##                                              
-##  model.Sepal.Length  model.Sepal.Width 
-##  Min.   :4.300000    Min.   :2.000000  
-##  1st Qu.:5.100000    1st Qu.:2.800000  
-##  Median :5.800000    Median :3.000000  
-##  Mean   :5.843333    Mean   :3.057333  
-##  3rd Qu.:6.400000    3rd Qu.:3.300000  
+##   coefficients       residuals          effects               rank
+##  Min.   :-0.2234   Min.   :-1.5561   Min.   :-71.56593   Min.   :2
+##  1st Qu.: 1.4640   1st Qu.:-0.6333   1st Qu.: -0.65192   1st Qu.:2
+##  Median : 3.1514   Median :-0.1120   Median : -0.00897   Median :2
+##  Mean   : 3.1514   Mean   : 0.0000   Mean   : -0.42040   Mean   :2
+##  3rd Qu.: 4.8388   3rd Qu.: 0.5579   3rd Qu.:  0.61051   3rd Qu.:2
+##  Max.   : 6.5262   Max.   : 2.2225   Max.   :  2.15225   Max.   :2
+##  fitted.values       assign     qr.Length  qr.Class  qr.Mode  df.residual
+##  Min.   :5.543   Min.   :0.00   300      -none-   numeric    Min.   :148
+##  1st Qu.:5.789   1st Qu.:0.25     2      -none-   numeric    1st Qu.:148
+##  Median :5.856   Median :0.50     2      -none-   numeric    Median :148
+##  Mean   :5.843   Mean   :0.50     1      -none-   numeric    Mean   :148
+##  3rd Qu.:5.901   3rd Qu.:0.75     1      -none-   numeric    3rd Qu.:148
+##  Max.   :6.080   Max.   :1.00                                Max.   :148
+##    xlevels         call         terms
+##  Length:0      Length:3      Length:3
+##  Class :list   Class :call   Class1:terms
+##  Mode  :list   Mode  :call   Class2:formula
+##                              Mode  :call
+##
+##
+##  model.Sepal.Length  model.Sepal.Width
+##  Min.   :4.300000    Min.   :2.000000
+##  1st Qu.:5.100000    1st Qu.:2.800000
+##  Median :5.800000    Median :3.000000
+##  Mean   :5.843333    Mean   :3.057333
+##  3rd Qu.:6.400000    3rd Qu.:3.300000
 ##  Max.   :7.900000    Max.   :4.400000
 ```
 
-However the output may be a bit confusing. 
+However the output may be a bit confusing.
 
 To summarize, the important feature of S3 methods worth noting is that only the **first part**, `summary`, is required to be used on these objects of different classes.
 
@@ -313,9 +313,9 @@ One might be inclined to write a function to perform this task
 
 ```r
 rss <- function(x){
-  
+
   sum(residuals(x)**2)
-  
+
 }
 
 rss(fit.rpart)
@@ -326,7 +326,7 @@ rss(fit.rpart)
 ```
 
 However, there are many different decision tree models that one would like to compare, say boosted regression trees (BRT), and random forests (RF). The same code will not work:
-  
+
 
 ```r
 library(randomForest)
@@ -347,34 +347,34 @@ In this case, one could write three functions, one for each decision tree method
 
 ```r
 dt_rss <- function (x){
-  
-  
+
+
   if ("rpart" %in% class(x)) {
-    
+
     result <- sum((residuals(x)**2))
-    
+
     return(result)
-    
+
   }
-  
+
   else if ("gbm" %in% class(x)) {
-    
+
     result <- sum(x$residuals**n2)
-    
+
     return(result)
-    
+
   }
-  
+
   else if ("randomForest" %in% class(x)) {
-    
-    temp <- x$y - x$predicted  
-    
-    result <- sum(temp**2)  
-    
+
+    temp <- x$y - x$predicted
+
+    result <- sum(temp**2)
+
     return(result)
-    
+
   }
-  
+
   else warning(paste(class(x), "is not of an rpart, gbm, or randomForest object"))
 }
 ```
@@ -416,7 +416,7 @@ First define the S3 method with `UseMethod()`
 rss <- function(x) UseMethod("rss")
 ```
 
-This creates the building block of an S3 method, the "root", if you will. 
+This creates the building block of an S3 method, the "root", if you will.
 
 Here we have specified that our method will be called `rss`. Now we need to create the special cases of rss - the methods `rss.rpart`, `rss.gbm`, and `rss.randomForest`, where the sections of code after  `rss.` are the classes of object we want them to work on.
 
@@ -431,8 +431,8 @@ A default method can also be created - `rss.default` - which, as the name sugges
 ```r
 rss.default <- function(x, ...){
 
-warning(paste("RSS does not know how to handle object of class ", 
-class(x), 
+warning(paste("RSS does not know how to handle object of class ",
+class(x),
 "and can only be used on classes rpart, gbm, and randomForest"))
 
 }
@@ -463,4 +463,4 @@ rss(lm.fit)
 ## class function and can only be used on classes rpart, gbm, and randomForest
 ```
 
-This guide to S3 methods was written to provide R users with the minimal amount of information to start building their own S3 methods. For a more complete treatment on S3 methods, see [Advanced-R](), [R Packages](), and the [official S3 documentation]().
+This guide to S3 methods was written to provide R users with the minimal amount of information to start building their own S3 methods. For a more complete treatment on S3 methods, see [Advanced-R](http://adv-r.had.co.nz/), [R Packages](http://r-pkgs.had.co.nz/), and the [official S3 documentation](https://stat.ethz.ch/R-manual/R-devel/library/base/html/UseMethod.html).
