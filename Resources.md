@@ -19,11 +19,11 @@ To learn R, you need to learn [how to get unstuck with R](http://stat545.com/hel
 
 To learn a new function or package, [Quick-R](http://www.statmethods.net), provides nice quick description of functions and other R-related things.
 
-For all my other problems, I usually google the error message, or try and ask an intelligent question to google and then look for the appropriate [StackOVerflow Answer](http://stackoverflow.com). [RSeek](http://rseek.org/) is also basically a google search that filters by R related content.
+For all my other problems, I usually google the error message, or try my darndest to ask an reasonable question to google that describes my current dilemna, and then look read the appropriate blog post, or [StackOVerflow Answer](http://stackoverflow.com). [RSeek](http://rseek.org/) is also basically a google search that filters by R related content.
 
 I would also recommend checking out RStudio's [list of resources for learning R](http://www.rstudio.com/resources/training/online-learning/#R), and [this blog post](http://www3.nd.edu/~mclark19/projects.html), which describes learning R from a social sciences background.
 
-To stay up to date with what other people around the world are doing with R, I recommend checking up on [r-bloggers](r-bloggers.com) every other day, and checking out the [#rstats](https://twitter.com/search?q=%23rstats&src=tyah) hashtag on twitter. The R and statistics community on twitter is excellent and friendly.
+To stay up to date with what other people around the world are doing with R, I recommend checking up on [r-bloggers](r-bloggers.com) every other day, and checking out the [#rstats](https://twitter.com/search?q=%23rstats&src=tyah) hashtag on twitter. The R and statistics community on twitter is both excellent and friendly.
 
 # Learning Advanced R
 
@@ -35,7 +35,7 @@ Got a basic handle on R and are hankering for more? I recommend these free, onli
 
 - [R for Data Science](http://r4ds.had.co.nz/)
 
-There is also a book, [Ramarro](http://www.quantide.com/R/r-training/r-web-books/ramarro-r-for-developers), by quantide which seems similar(ish) to Hadley's books.
+There is also a book, [Ramarro](http://www.quantide.com/R/r-training/r-web-books/ramarro-r-for-developers), by quantide which seems similar(ish) to Hadley's books.
 
 # Advanced R stuff: S3 Classes
 
@@ -47,6 +47,8 @@ S3 classes are this really awesome minimal class of functions that can be super 
 
 - [This video by Andrew Robinson](http://www.youtube.com/watch?v=VZkD7DXQ-fk&amp;feature=g-upl). Sides available [here](http://files.meetup.com/1685538/presentation.pdf). Thanks to [http://damjan.vukcevic.net/](Damjan Vukcevic) for this information.
 
+I have also written a [blog post](http://www.njtierney.com/r/missing%20data/rbloggers/2016/11/06/simple-s3-methods/) about S3 methods, and have a [preprint on arxiv](https://arxiv.org/abs/1608.07161).
+
 # Data Visualisation
 
 `ggplot`
@@ -55,17 +57,25 @@ If you are going to do a plot in R, it should be in ggplot. It takes about 5 min
 
 ggplot ollows a logical syntax adapted from the book "The Grammar of Graphics". It makes visualisation make sense. And there are lots of other packages that build upon it to make it more awesome, such as GGally.
 
-So here are some ggplot resources:
+So here are some ggplot resources in order of usefulness
 
+
+- The [RStudio ggplot cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/05/ggplot2-cheatsheet.pdf) sits pinned up above my desk.
+- [The R Graphics Cookbook](http://www.cookbook-r.com/Graphs/) usually has the answers for what I'm after.
+- [The official documentation](docs.ggplot2.org/current)
 - [This handout](http://www.ceb-institute.org/bbs/wp-content/uploads/2011/09/handout_ggplot2.pdf) provides an introduction to ggplot.
 - [The ggplot index](http://docs.ggplot2.org/current/index.html) The ggplot index page is usually where I head to first off when I want to understand how to add and build upon my graphs.
-- [The R Graphics Cookbook](http://www.cookbook-r.com/Graphs/) is also really nice.
 - I also recently discovered the [ggplot2 wiki](https://github.com/hadley/ggplot2/wiki), which has some great case studies and examples.
-- The [RStudio ggplot cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/05/ggplot2-cheatsheet.pdf) is also really nice. It sits pinned up on my desk.
+
+# plotly
+
+Plotly for R, written and maintained by [Carson Sievert](https://cpsievert.github.io), is a very powerful and flexible interactive plotting enging in R. It has a fully fledged API for writing interactice graphics in R, as well as a fantastic function that gives the user a lot for free: `ggplotly`. You can read more about plotly for R in Carson's [free and online book](https://cpsievert.github.io/plotly_book/).
 
 # ggvis
 
-ggvis is another great package which builds upon the structure of ggplot but it allows for more interactive, reactive, plot building. Examples can be found [here](http://ggvis.rstudio.com/0.1/quick-examples.html) [here](http://ggvis.rstudio.com/ggvis-basics.html), and [here](http://ggvis.rstudio.com/cookbook.html).
+ggvis is another great package written by Hadley Wickham, which builds upon the structure of ggplot but it allows for more interactive, reactive, plot building. Examples can be found [here](http://ggvis.rstudio.com/0.1/quick-examples.html) [here](http://ggvis.rstudio.com/ggvis-basics.html), and [here](http://ggvis.rstudio.com/cookbook.html).
+
+More serious development on ggvis will apparently begin in 2018, as Hadley and his team at RStudio will be spending 2017 to make the everything in the tidyverse work well together. For the moment I would recommend using plotly to do your interactive graphics.
 
 # Shiny
 
@@ -84,7 +94,7 @@ shiny is a really awesome way to enhance your R plotting, and turn them into 'ap
 
 # Reproducible Reporting
 
-Probably the coolest thing ever. `knitr` is this amazing package that allows the user to combine their code and document text, making research easier to reproduce, and it does this while looking slick and classy. The idea is essentially to let the human do the writing, and the computer handle displaying the results, so that reports can be easily constructed, and most importantly, reproduced easily.
+Probably the coolest thing ever. `knitr` is this amazing package that allows the user to combine their code and document text, making research easier to reproduce, and it does this while looking slick and classy. The idea is essentially to let the human do the writing, and the computer handle displaying the results, so that reports can be easily constructed, and most importantly, reproduced easily.
 
 Check out some really nice guides [here](http://rmarkdown.rstudio.com/) and [here](http://rmarkdown.rstudio.com/html_document_format.html), and from the awesome dude who created knitr [here](http://yihui.name/knitr/).
 
@@ -93,23 +103,23 @@ You can also augment your rmarkdown documents with [templates](http://rmarkdown.
 
 # Learning R and Statistics
 
-If you want to learn statistics using R, check out [this website](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos) containing 15 hours of an applied R statistics course from Stanford. They also have an [excellent (and free!) book](http://www-bcf.usc.edu/~gareth/ISL/).
+If you want to learn statistics using R, check out [this website](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos) containing 15 hours of an applied R statistics course from Stanford. They also have an [excellent (and free!) book](http://www-bcf.usc.edu/~gareth/ISL/).
 
 # Decision Trees
 
-I use decision trees a lot in R, and I even [wrote a little package](https://github.com/njtierney/neato) that helps take care of some common tasks in interrogating decision trees. Here are a list of resources that I recommend using to learn about them:
+I use decision trees a lot in R, and I even [wrote a little package](https://github.com/njtierney/treezy) that helps take care of some common tasks in interrogating decision trees. Here are a list of resources that I recommend using to learn about them:
 
 - [This book from James et al](http://www-bcf.usc.edu/~gareth/ISL/ISLR%20First%20Printing.pdf) - chapter 8 specifically refers to decision trees. They've also made the book free! Also [their videos](https://www.youtube.com/playlist?list=PL5-da3qGB5IB23TLuA8ZgVGC8hV8ZAdGh) on decision trees are very useful. You can find a comprehensive list of all their videos and material at [this website](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos)	
 
-- This [book chapter](http://mason.gmu.edu/~csutton/vt6.pdf) from the Handbook of Statistics is broad and general.
+- This [book chapter](http://mason.gmu.edu/~csutton/vt6.pdf) from the Handbook of Statistics is broad and general.
 
-- This [page](http://architects.dzone.com/articles/regression-tree-using-gini%E2%80%99s) helps explain regression trees. Their [gif](http://f.hypotheses.org/wp-content/blogs.dir/253/files/2013/01/gini-x1x2-x1-b.gif) demonstrating how decision trees choose splitting values is also really helpful.
+- This [page](http://architects.dzone.com/articles/regression-tree-using-gini%E2%80%99s) helps explain regression trees. Their [gif](http://f.hypotheses.org/wp-content/blogs.dir/253/files/2013/01/gini-x1x2-x1-b.gif) demonstrating how decision trees choose splitting values is also really helpful.
 
 - [This video on](http://www.statsoft.com/Textbook/Boosting-Trees-Regression-Classification) introduction to boosting trees for regression and classification by statsoft.
 
 # STATA Related Resources
 
-STATA do a great job of explaining multilevel and hierarchical models on their blog. I found these two blogs and video really helpful:
+STATA do a great job of explaining multilevel and hierarchical models on their blog. I found these two blogs and video really helpful:
 
 - [Blog part 1](http://blog.stata.com/2013/02/04/multilevel-linear-models-in-stata-part-1-components-of-variance/)
 
