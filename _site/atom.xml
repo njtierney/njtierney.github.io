@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Nicholas Tierney</title>
- <link href="http://localhost:4000/atom.xml" rel="self"/>
- <link href="http://localhost:4000/"/>
- <updated>2016-11-06T23:18:48+10:00</updated>
- <id>http://localhost:4000</id>
+ <link href="http://njtierney.github.io/atom.xml" rel="self"/>
+ <link href="http://njtierney.github.io/"/>
+ <updated>2016-12-25T22:40:00+10:00</updated>
+ <id>http://njtierney.github.io</id>
  <author>
    <name>Nicholas Tierney</name>
    <email></email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>A Simple Guide to S3 Methods</title>
-   <link href="http://localhost:4000/r/missing%20data/rbloggers/2016/11/06/simple-s3-methods/"/>
+   <link href="http://njtierney.github.io/r/missing%20data/rbloggers/2016/11/06/simple-s3-methods/"/>
    <updated>2016-11-06T00:00:00+10:00</updated>
-   <id>http://localhost:4000/r/missing%20data/rbloggers/2016/11/06/simple-s3-methods</id>
+   <id>http://njtierney.github.io/r/missing%20data/rbloggers/2016/11/06/simple-s3-methods</id>
    <content type="html">&lt;p&gt;A few months ago &lt;a href=&quot;http://www.njtierney.com/r/rbloggers/2016/08/26/SimpleS3/&quot;&gt;I wrote about&lt;/a&gt; my first solo author submission to the &lt;a href=&quot;https://journal.r-project.org/&quot;&gt;R Journal&lt;/a&gt; entitled, “A Simple Guide to S3 Methods”. Unfortunately the article didn’t make it to publication on the R Journal, but admittedly that might have been a bit of a long shot.&lt;/p&gt;
 
 &lt;p&gt;So, I thought that it might be good if I instead share the article here on my blog and r bloggers, so that people can comment below and share their thoughts.&lt;/p&gt;
@@ -47,20 +47,20 @@
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;##   Sepal.Length    Sepal.Width     Petal.Length    Petal.Width   
-##  Min.   :4.300   Min.   :2.000   Min.   :1.000   Min.   :0.100  
-##  1st Qu.:5.100   1st Qu.:2.800   1st Qu.:1.600   1st Qu.:0.300  
-##  Median :5.800   Median :3.000   Median :4.350   Median :1.300  
-##  Mean   :5.843   Mean   :3.057   Mean   :3.758   Mean   :1.199  
-##  3rd Qu.:6.400   3rd Qu.:3.300   3rd Qu.:5.100   3rd Qu.:1.800  
-##  Max.   :7.900   Max.   :4.400   Max.   :6.900   Max.   :2.500  
-##        Species  
-##  setosa    :50  
-##  versicolor:50  
-##  virginica :50  
-##                 
-##                 
-## 
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;##   Sepal.Length    Sepal.Width     Petal.Length    Petal.Width
+##  Min.   :4.300   Min.   :2.000   Min.   :1.000   Min.   :0.100
+##  1st Qu.:5.100   1st Qu.:2.800   1st Qu.:1.600   1st Qu.:0.300
+##  Median :5.800   Median :3.000   Median :4.350   Median :1.300
+##  Mean   :5.843   Mean   :3.057   Mean   :3.758   Mean   :1.199
+##  3rd Qu.:6.400   3rd Qu.:3.300   3rd Qu.:5.100   3rd Qu.:1.800
+##  Max.   :7.900   Max.   :4.400   Max.   :6.900   Max.   :2.500
+##        Species
+##  setosa    :50
+##  versicolor:50
+##  virginica :50
+##
+##
+##
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
@@ -70,23 +70,23 @@
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;##  [1] summary.aov                    summary.aovlist*              
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;##  [1] summary.aov                    summary.aovlist*
 ##  [3] summary.aspell*                summary.check_packages_in_dir*
-##  [5] summary.connection             summary.data.frame            
-##  [7] summary.Date                   summary.default               
-##  [9] summary.ecdf*                  summary.factor                
-## [11] summary.glm                    summary.infl*                 
-## [13] summary.lm                     summary.loess*                
-## [15] summary.manova                 summary.matrix                
-## [17] summary.mlm*                   summary.nls*                  
-## [19] summary.packageStatus*         summary.PDF_Dictionary*       
-## [21] summary.PDF_Stream*            summary.POSIXct               
-## [23] summary.POSIXlt                summary.ppr*                  
-## [25] summary.prcomp*                summary.princomp*             
-## [27] summary.proc_time              summary.srcfile               
-## [29] summary.srcref                 summary.stepfun               
-## [31] summary.stl*                   summary.table                 
-## [33] summary.tukeysmooth*          
+##  [5] summary.connection             summary.data.frame
+##  [7] summary.Date                   summary.default
+##  [9] summary.ecdf*                  summary.factor
+## [11] summary.glm                    summary.infl*
+## [13] summary.lm                     summary.loess*
+## [15] summary.manova                 summary.matrix
+## [17] summary.mlm*                   summary.nls*
+## [19] summary.packageStatus*         summary.PDF_Dictionary*
+## [21] summary.PDF_Stream*            summary.POSIXct
+## [23] summary.POSIXlt                summary.ppr*
+## [25] summary.prcomp*                summary.princomp*
+## [27] summary.proc_time              summary.srcfile
+## [29] summary.srcref                 summary.stepfun
+## [31] summary.stl*                   summary.table
+## [33] summary.tukeysmooth*
 ## see '?methods' for accessing help and source code
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
@@ -101,23 +101,23 @@
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;## 
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;##
 ## Call:
 ## lm(formula = Sepal.Length ~ Sepal.Width, data = iris)
-## 
+##
 ## Residuals:
-##     Min      1Q  Median      3Q     Max 
-## -1.5561 -0.6333 -0.1120  0.5579  2.2226 
-## 
+##     Min      1Q  Median      3Q     Max
+## -1.5561 -0.6333 -0.1120  0.5579  2.2226
+##
 ## Coefficients:
-##             Estimate Std. Error t value Pr(&amp;gt;|t|)    
+##             Estimate Std. Error t value Pr(&amp;gt;|t|)
 ## (Intercept)   6.5262     0.4789   13.63   &amp;lt;2e-16 ***
-## Sepal.Width  -0.2234     0.1551   -1.44    0.152    
+## Sepal.Width  -0.2234     0.1551   -1.44    0.152
 ## ---
 ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-## 
+##
 ## Residual standard error: 0.8251 on 148 degrees of freedom
-## Multiple R-squared:  0.01382,	Adjusted R-squared:  0.007159 
+## Multiple R-squared:  0.01382,	Adjusted R-squared:  0.007159
 ## F-statistic: 2.074 on 1 and 148 DF,  p-value: 0.1519
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
@@ -149,20 +149,20 @@
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;##   Sepal.Length    Sepal.Width     Petal.Length    Petal.Width   
-##  Min.   :4.300   Min.   :2.000   Min.   :1.000   Min.   :0.100  
-##  1st Qu.:5.100   1st Qu.:2.800   1st Qu.:1.600   1st Qu.:0.300  
-##  Median :5.800   Median :3.000   Median :4.350   Median :1.300  
-##  Mean   :5.843   Mean   :3.057   Mean   :3.758   Mean   :1.199  
-##  3rd Qu.:6.400   3rd Qu.:3.300   3rd Qu.:5.100   3rd Qu.:1.800  
-##  Max.   :7.900   Max.   :4.400   Max.   :6.900   Max.   :2.500  
-##        Species  
-##  setosa    :50  
-##  versicolor:50  
-##  virginica :50  
-##                 
-##                 
-## 
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;##   Sepal.Length    Sepal.Width     Petal.Length    Petal.Width
+##  Min.   :4.300   Min.   :2.000   Min.   :1.000   Min.   :0.100
+##  1st Qu.:5.100   1st Qu.:2.800   1st Qu.:1.600   1st Qu.:0.300
+##  Median :5.800   Median :3.000   Median :4.350   Median :1.300
+##  Mean   :5.843   Mean   :3.057   Mean   :3.758   Mean   :1.199
+##  3rd Qu.:6.400   3rd Qu.:3.300   3rd Qu.:5.100   3rd Qu.:1.800
+##  Max.   :7.900   Max.   :4.400   Max.   :6.900   Max.   :2.500
+##        Species
+##  setosa    :50
+##  versicolor:50
+##  virginica :50
+##
+##
+##
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
@@ -186,23 +186,23 @@
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;## 
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;##
 ## Call:
 ## lm(formula = Sepal.Length ~ Sepal.Width, data = iris)
-## 
+##
 ## Residuals:
-##     Min      1Q  Median      3Q     Max 
-## -1.5561 -0.6333 -0.1120  0.5579  2.2226 
-## 
+##     Min      1Q  Median      3Q     Max
+## -1.5561 -0.6333 -0.1120  0.5579  2.2226
+##
 ## Coefficients:
-##             Estimate Std. Error t value Pr(&amp;gt;|t|)    
+##             Estimate Std. Error t value Pr(&amp;gt;|t|)
 ## (Intercept)   6.5262     0.4789   13.63   &amp;lt;2e-16 ***
-## Sepal.Width  -0.2234     0.1551   -1.44    0.152    
+## Sepal.Width  -0.2234     0.1551   -1.44    0.152
 ## ---
 ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-## 
+##
 ## Residual standard error: 0.8251 on 148 degrees of freedom
-## Multiple R-squared:  0.01382,	Adjusted R-squared:  0.007159 
+## Multiple R-squared:  0.01382,	Adjusted R-squared:  0.007159
 ## F-statistic: 2.074 on 1 and 148 DF,  p-value: 0.1519
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
@@ -227,33 +227,33 @@
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;##   coefficients       residuals          effects               rank  
-##  Min.   :-0.2234   Min.   :-1.5561   Min.   :-71.56593   Min.   :2  
-##  1st Qu.: 1.4640   1st Qu.:-0.6333   1st Qu.: -0.65192   1st Qu.:2  
-##  Median : 3.1514   Median :-0.1120   Median : -0.00897   Median :2  
-##  Mean   : 3.1514   Mean   : 0.0000   Mean   : -0.42040   Mean   :2  
-##  3rd Qu.: 4.8388   3rd Qu.: 0.5579   3rd Qu.:  0.61051   3rd Qu.:2  
-##  Max.   : 6.5262   Max.   : 2.2225   Max.   :  2.15225   Max.   :2  
-##  fitted.values       assign     qr.Length  qr.Class  qr.Mode  df.residual 
-##  Min.   :5.543   Min.   :0.00   300      -none-   numeric    Min.   :148  
-##  1st Qu.:5.789   1st Qu.:0.25     2      -none-   numeric    1st Qu.:148  
-##  Median :5.856   Median :0.50     2      -none-   numeric    Median :148  
-##  Mean   :5.843   Mean   :0.50     1      -none-   numeric    Mean   :148  
-##  3rd Qu.:5.901   3rd Qu.:0.75     1      -none-   numeric    3rd Qu.:148  
-##  Max.   :6.080   Max.   :1.00                                Max.   :148  
-##    xlevels         call         terms        
-##  Length:0      Length:3      Length:3        
-##  Class :list   Class :call   Class1:terms    
-##  Mode  :list   Mode  :call   Class2:formula  
-##                              Mode  :call     
-##                                              
-##                                              
-##  model.Sepal.Length  model.Sepal.Width 
-##  Min.   :4.300000    Min.   :2.000000  
-##  1st Qu.:5.100000    1st Qu.:2.800000  
-##  Median :5.800000    Median :3.000000  
-##  Mean   :5.843333    Mean   :3.057333  
-##  3rd Qu.:6.400000    3rd Qu.:3.300000  
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;##   coefficients       residuals          effects               rank
+##  Min.   :-0.2234   Min.   :-1.5561   Min.   :-71.56593   Min.   :2
+##  1st Qu.: 1.4640   1st Qu.:-0.6333   1st Qu.: -0.65192   1st Qu.:2
+##  Median : 3.1514   Median :-0.1120   Median : -0.00897   Median :2
+##  Mean   : 3.1514   Mean   : 0.0000   Mean   : -0.42040   Mean   :2
+##  3rd Qu.: 4.8388   3rd Qu.: 0.5579   3rd Qu.:  0.61051   3rd Qu.:2
+##  Max.   : 6.5262   Max.   : 2.2225   Max.   :  2.15225   Max.   :2
+##  fitted.values       assign     qr.Length  qr.Class  qr.Mode  df.residual
+##  Min.   :5.543   Min.   :0.00   300      -none-   numeric    Min.   :148
+##  1st Qu.:5.789   1st Qu.:0.25     2      -none-   numeric    1st Qu.:148
+##  Median :5.856   Median :0.50     2      -none-   numeric    Median :148
+##  Mean   :5.843   Mean   :0.50     1      -none-   numeric    Mean   :148
+##  3rd Qu.:5.901   3rd Qu.:0.75     1      -none-   numeric    3rd Qu.:148
+##  Max.   :6.080   Max.   :1.00                                Max.   :148
+##    xlevels         call         terms
+##  Length:0      Length:3      Length:3
+##  Class :list   Class :call   Class1:terms
+##  Mode  :list   Mode  :call   Class2:formula
+##                              Mode  :call
+##
+##
+##  model.Sepal.Length  model.Sepal.Width
+##  Min.   :4.300000    Min.   :2.000000
+##  1st Qu.:5.100000    1st Qu.:2.800000
+##  Median :5.800000    Median :3.000000
+##  Mean   :5.843333    Mean   :3.057333
+##  3rd Qu.:6.400000    3rd Qu.:3.300000
 ##  Max.   :7.900000    Max.   :4.400000
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
@@ -301,9 +301,9 @@
 &lt;p&gt;One might be inclined to write a function to perform this task&lt;/p&gt;
 
 &lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;rss&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  
+
   &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;residuals&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  
+
 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 
 &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rss&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fit.rpart&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
@@ -332,34 +332,34 @@
 &lt;p&gt;In this case, one could write three functions, one for each decision tree method: “rss_rpart”, “rss_brt”, and “rss_rf”. But to avoid having three functions and instead use just one, one could place all three functions inside of one function, using an if-then-else clause to direct the object of the appropriate class to the appropriate method. This shall be referred to as a “Poor man’s S3 method”.&lt;/p&gt;
 
 &lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;dt_rss&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  
-  
+
+
   &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;rpart&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%in%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    
+
     &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;residuals&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    
+
     &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    
+
   &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  
+
   &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;gbm&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%in%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    
+
     &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;residuals&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    
+
     &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    
+
   &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  
+
   &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;randomForest&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%in%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    
-    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;temp&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;predicted&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;  
-    
-    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;temp&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;  
-    
+
+    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;temp&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;predicted&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+
+    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;temp&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+
     &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    
+
   &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  
+
   &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;warning&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;paste&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;is not of an rpart, gbm, or randomForest object&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
@@ -407,8 +407,8 @@ However, one must ask how sustainable this would be for an entire programming la
 
 &lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;rss.default&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;warning&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;paste&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;RSS does not know how to handle object of class &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
-&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;warning&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;paste&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;RSS does not know how to handle object of class &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;and can only be used on classes rpart, gbm, and randomForest&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 
 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
@@ -438,15 +438,15 @@ However, one must ask how sustainable this would be for an entire programming la
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;This guide to S3 methods was written to provide R users with the minimal amount of information to start building their own S3 methods. For a more complete treatment on S3 methods, see &lt;a href=&quot;&quot;&gt;Advanced-R&lt;/a&gt;, &lt;a href=&quot;&quot;&gt;R Packages&lt;/a&gt;, and the &lt;a href=&quot;&quot;&gt;official S3 documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This guide to S3 methods was written to provide R users with the minimal amount of information to start building their own S3 methods. For a more complete treatment on S3 methods, see &lt;a href=&quot;http://adv-r.had.co.nz/&quot;&gt;Advanced-R&lt;/a&gt;, &lt;a href=&quot;http://r-pkgs.had.co.nz/&quot;&gt;R Packages&lt;/a&gt;, and the &lt;a href=&quot;https://stat.ethz.ch/R-manual/R-devel/library/base/html/UseMethod.html&quot;&gt;official S3 documentation&lt;/a&gt;.&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Simple Guide to S3 Methods</title>
-   <link href="http://localhost:4000/r/rbloggers/2016/08/26/SimpleS3/"/>
+   <link href="http://njtierney.github.io/r/rbloggers/2016/08/26/SimpleS3/"/>
    <updated>2016-08-26T00:00:00+10:00</updated>
-   <id>http://localhost:4000/r/rbloggers/2016/08/26/SimpleS3</id>
+   <id>http://njtierney.github.io/r/rbloggers/2016/08/26/SimpleS3</id>
    <content type="html">&lt;p&gt;So I’ve just submitted my first article to &lt;a href=&quot;https://journal.r-project.org/&quot;&gt;the R Journal&lt;/a&gt;!&lt;/p&gt;
 
 &lt;div style=&quot;width: auto&quot;&gt;
@@ -489,9 +489,9 @@ However, one must ask how sustainable this would be for an entire programming la
  
  <entry>
    <title>Science Meets Parliament</title>
-   <link href="http://localhost:4000/blag/2016/08/22/science-meets-parliament/"/>
+   <link href="http://njtierney.github.io/blag/2016/08/22/science-meets-parliament/"/>
    <updated>2016-08-22T00:00:00+10:00</updated>
-   <id>http://localhost:4000/blag/2016/08/22/science-meets-parliament</id>
+   <id>http://njtierney.github.io/blag/2016/08/22/science-meets-parliament</id>
    <content type="html">&lt;p&gt;This blog post is a repost from the &lt;a href=&quot;http://www.statsoc.org.au/wp-content/uploads/2013/06/SSAI_Newsletter_June2016_v3.pdf&quot;&gt;Statistical Society of Australia Newsletter&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;
@@ -570,9 +570,9 @@ However, one must ask how sustainable this would be for an entire programming la
  
  <entry>
    <title>Australian rOpenSci Unconference</title>
-   <link href="http://localhost:4000/blag/2016/03/09/au-unconf-down-under/"/>
+   <link href="http://njtierney.github.io/blag/2016/03/09/au-unconf-down-under/"/>
    <updated>2016-03-09T00:00:00+10:00</updated>
-   <id>http://localhost:4000/blag/2016/03/09/au-unconf-down-under</id>
+   <id>http://njtierney.github.io/blag/2016/03/09/au-unconf-down-under</id>
    <content type="html">&lt;p&gt;The rOpenSci Unconferene is coming to Australia and we are excited!!&lt;/p&gt;
 
 &lt;p&gt;The event will take place in sunny Brisbane, on April 21-22 2016 hosted at the &lt;a href=&quot;https://www.microsoftinnovationcenters.com/&quot;&gt;Microsoft Innovation Centre&lt;/a&gt;. You can find more information about the event and how to register at &lt;a href=&quot;http://www.auunconf.ropensci.org.&quot;&gt;http://www.auunconf.ropensci.org.&lt;/a&gt;&lt;/p&gt;
@@ -608,9 +608,9 @@ However, one must ask how sustainable this would be for an entire programming la
  
  <entry>
    <title>WOMBAT 2016 Wrap Up</title>
-   <link href="http://localhost:4000/blag/rbloggers/2016/03/06/wombat-2016-wrap-up/"/>
+   <link href="http://njtierney.github.io/blag/rbloggers/2016/03/06/wombat-2016-wrap-up/"/>
    <updated>2016-03-06T00:00:00+10:00</updated>
-   <id>http://localhost:4000/blag/rbloggers/2016/03/06/wombat-2016-wrap-up</id>
+   <id>http://njtierney.github.io/blag/rbloggers/2016/03/06/wombat-2016-wrap-up</id>
    <content type="html">&lt;p&gt;A few weeks ago I spoke at the &lt;a href=&quot;http://wombat2016.org/&quot;&gt;Workshop Organized by Monash Business Analytics Team (WOMBAT)&lt;/a&gt;, held in the Melbourne Zoo (!) on Thursday and Friday the 18th and 19th February.&lt;/p&gt;
 
 &lt;p&gt;It was my first time at the Melbourne Zoo, and my first time having a conference in a Zoo. It was a pretty surreal experience briskly walking to the conference room while trying to navigate a zoo, passing monkeys, macaws, and tigers. And during the lunch breaks you could sit down and chat with other conference attendees…or go and see the Orangutan show, watch the elephants get a clean, or see some Gorillas.&lt;/p&gt;
@@ -641,9 +641,9 @@ However, one must ask how sustainable this would be for an entire programming la
  
  <entry>
    <title>ggplot your missing data</title>
-   <link href="http://localhost:4000/r/missing%20data/rbloggers/2015/12/01/ggplot-missing-data/"/>
+   <link href="http://njtierney.github.io/r/missing%20data/rbloggers/2015/12/01/ggplot-missing-data/"/>
    <updated>2015-12-01T00:00:00+10:00</updated>
-   <id>http://localhost:4000/r/missing%20data/rbloggers/2015/12/01/ggplot-missing-data</id>
+   <id>http://njtierney.github.io/r/missing%20data/rbloggers/2015/12/01/ggplot-missing-data</id>
    <content type="html">&lt;p&gt;Visualising missing data is important when analysing a dataset. I wanted to make a plot of the presence/absence in a dataset. One package, &lt;a href=&quot;https://cran.r-project.org/web/packages/Amelia/index.html&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Amelia&lt;/code&gt;&lt;/a&gt; provides a function to do this, but I don’t like the way it looks. So I made a ggplot version of what it did.&lt;/p&gt;
 
 &lt;p&gt;Let’s make a dataset using the awesome &lt;a href=&quot;https://github.com/trinker/wakefield&quot;&gt;wakefield package&lt;/a&gt;, and add random missingness.&lt;/p&gt;
@@ -725,9 +725,9 @@ However, one must ask how sustainable this would be for an entire programming la
  
  <entry>
    <title>ggplot your missing data</title>
-   <link href="http://localhost:4000/r/missing%20data/2015/11/12/ggplot-missing-data/"/>
+   <link href="http://njtierney.github.io/r/missing%20data/2015/11/12/ggplot-missing-data/"/>
    <updated>2015-11-12T00:00:00+10:00</updated>
-   <id>http://localhost:4000/r/missing%20data/2015/11/12/ggplot-missing-data</id>
+   <id>http://njtierney.github.io/r/missing%20data/2015/11/12/ggplot-missing-data</id>
    <content type="html">&lt;p&gt;Visualising missing data is important when analysing a dataset. I wanted to make a plot of the presence/absence in a dataset. One package, &lt;a href=&quot;https://cran.r-project.org/web/packages/Amelia/index.html&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Amelia&lt;/code&gt;&lt;/a&gt; provides a function to do this, but I don’t like the way it looks. So I made a ggplot version of what it did.&lt;/p&gt;
 
 &lt;p&gt;Let’s make a dataset using the awesome &lt;a href=&quot;https://github.com/trinker/wakefield&quot;&gt;wakefield package&lt;/a&gt;, and add random missingness.&lt;/p&gt;
@@ -811,9 +811,9 @@ However, one must ask how sustainable this would be for an entire programming la
  
  <entry>
    <title>How I built my website</title>
-   <link href="http://localhost:4000/jekyll/2015/11/11/how-i-built-my-site/"/>
+   <link href="http://njtierney.github.io/jekyll/2015/11/11/how-i-built-my-site/"/>
    <updated>2015-11-11T00:00:00+10:00</updated>
-   <id>http://localhost:4000/jekyll/2015/11/11/how-i-built-my-site</id>
+   <id>http://njtierney.github.io/jekyll/2015/11/11/how-i-built-my-site</id>
    <content type="html">&lt;p&gt;I’ve recently changed my website from Wordpress to Jekyll. In this post I try and succinctly describe how it happened.&lt;/p&gt;
 
 &lt;h1 id=&quot;why-change&quot;&gt;Why change?&lt;/h1&gt;
@@ -1015,9 +1015,9 @@ However, one must ask how sustainable this would be for an entire programming la
  
  <entry>
    <title>Using `table` the dplyr way</title>
-   <link href="http://localhost:4000/r/2015/11/03/tally-the-dplyr-table/"/>
+   <link href="http://njtierney.github.io/r/2015/11/03/tally-the-dplyr-table/"/>
    <updated>2015-11-03T00:00:00+10:00</updated>
-   <id>http://localhost:4000/r/2015/11/03/tally-the-dplyr-table</id>
+   <id>http://njtierney.github.io/r/2015/11/03/tally-the-dplyr-table</id>
    <content type="html">&lt;p&gt;In this post I describe how to use &lt;code class=&quot;highlighter-rouge&quot;&gt;tally&lt;/code&gt;, the &lt;code class=&quot;highlighter-rouge&quot;&gt;dplyr&lt;/code&gt; equivalent of &lt;code class=&quot;highlighter-rouge&quot;&gt;table&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;table&lt;/code&gt; gives you the frequencies of something in a category. Let’s use the &lt;code class=&quot;highlighter-rouge&quot;&gt;iris&lt;/code&gt; dataset to illustrate. Let’s say we want to know how many are in each species in &lt;code class=&quot;highlighter-rouge&quot;&gt;iris&lt;/code&gt;.&lt;/p&gt;
@@ -1112,9 +1112,9 @@ However, one must ask how sustainable this would be for an entire programming la
  
  <entry>
    <title>R Package `neato`</title>
-   <link href="http://localhost:4000/r/2015/03/09/r-package-neato/"/>
+   <link href="http://njtierney.github.io/r/2015/03/09/r-package-neato/"/>
    <updated>2015-03-09T00:00:00+10:00</updated>
-   <id>http://localhost:4000/r/2015/03/09/r-package-neato</id>
+   <id>http://njtierney.github.io/r/2015/03/09/r-package-neato</id>
    <content type="html">&lt;p&gt;My workflow in R now is to make a function after I copy and paste some code more than once. Sometimes I find myself using these functions more than once, across different projects.&lt;/p&gt;
 
 &lt;p&gt;So I decided to make an R package with a few of these functions in it. I call it “neato”, in the vain hope that one day someone will find one of these functions and say: “neato!”, because hey, it’s pretty neat!&lt;/p&gt;
@@ -1129,9 +1129,9 @@ However, one must ask how sustainable this would be for an entire programming la
  
  <entry>
    <title>Working Smoothly(er) from RMarkdown to Word.</title>
-   <link href="http://localhost:4000/rmarkdown/r/2015/02/09/Working-Smoothlyer-from-RMarkdown-to-Word/"/>
+   <link href="http://njtierney.github.io/rmarkdown/r/2015/02/09/Working-Smoothlyer-from-RMarkdown-to-Word/"/>
    <updated>2015-02-09T00:00:00+10:00</updated>
-   <id>http://localhost:4000/rmarkdown/r/2015/02/09/Working-Smoothlyer-from-RMarkdown-to-Word</id>
+   <id>http://njtierney.github.io/rmarkdown/r/2015/02/09/Working-Smoothlyer-from-RMarkdown-to-Word</id>
    <content type="html">&lt;p&gt;I’m a pretty huge fan of RMarkdown, as it is a great way for me to write my code and my text together. It seems really a rather a natural thing to do. You write about your analyses, and the code is there. You update some function or some data, and your figures and tables update with it.&lt;/p&gt;
 
 &lt;p&gt;In my head I feel as though I am working more efficiently. However there is some research to suggest that LaTeX users actually work slower than Word users. However, LaTeX users &lt;em&gt;feel better&lt;/em&gt; about using LaTeX. I would like to dub this the &lt;strong&gt;brown corduroy trousers effect&lt;/strong&gt;, quoting Robin Williams, who said something like:&lt;/p&gt;
@@ -1180,9 +1180,9 @@ However, one must ask how sustainable this would be for an entire programming la
  
  <entry>
    <title>Fix for `gbm.plot`</title>
-   <link href="http://localhost:4000/r/2014/04/22/gbm-plot-fix/"/>
+   <link href="http://njtierney.github.io/r/2014/04/22/gbm-plot-fix/"/>
    <updated>2014-04-22T00:00:00+10:00</updated>
-   <id>http://localhost:4000/r/2014/04/22/gbm-plot-fix</id>
+   <id>http://njtierney.github.io/r/2014/04/22/gbm-plot-fix</id>
    <content type="html">&lt;p&gt;I’m currently in the process of writing a report using boosted regression trees.  I’m currently using guidelines provided by Elith et al &lt;a href=&quot;http://avesbiodiv.mncn.csic.es/estadistica/bt1.pdf&quot;&gt;here&lt;/a&gt;, and &lt;a href=&quot;http://cran.r-project.org/web/packages/dismo/vignettes/brt.pdf&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;They provide the function &lt;code class=&quot;highlighter-rouge&quot;&gt;gbm.step&lt;/code&gt;, which performs 10-fold cross validation on the boosted regression tree. It also has a nifty &lt;code class=&quot;highlighter-rouge&quot;&gt;gbm.plot&lt;/code&gt; function, producing partial dependence plots. Unforunately, it kept giving me this error:&lt;/p&gt;
@@ -1201,9 +1201,9 @@ However, one must ask how sustainable this would be for an entire programming la
  
  <entry>
    <title>A Grammar of Models?</title>
-   <link href="http://localhost:4000/r/statistics/2013/11/10/grammar-of-models/"/>
+   <link href="http://njtierney.github.io/r/statistics/2013/11/10/grammar-of-models/"/>
    <updated>2013-11-10T00:00:00+10:00</updated>
-   <id>http://localhost:4000/r/statistics/2013/11/10/grammar-of-models</id>
+   <id>http://njtierney.github.io/r/statistics/2013/11/10/grammar-of-models</id>
    <content type="html">&lt;p&gt;I came across &lt;a href=&quot;http://statr.me/2013/09/a-conversation-with-hadley-wickham/&quot;&gt;this interview&lt;/a&gt; with Hadley Wickham, the creator of one of the most widely used R packages, &lt;code class=&quot;highlighter-rouge&quot;&gt;ggplot 2&lt;/code&gt;. I thought that this quote was interesting:&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -1231,9 +1231,9 @@ However, one must ask how sustainable this would be for an entire programming la
  
  <entry>
    <title>Statistics for Journalists</title>
-   <link href="http://localhost:4000/statistics/teaching/2013/11/01/statistics-for-journalists/"/>
+   <link href="http://njtierney.github.io/statistics/teaching/2013/11/01/statistics-for-journalists/"/>
    <updated>2013-11-01T00:00:00+10:00</updated>
-   <id>http://localhost:4000/statistics/teaching/2013/11/01/statistics-for-journalists</id>
+   <id>http://njtierney.github.io/statistics/teaching/2013/11/01/statistics-for-journalists</id>
    <content type="html">&lt;p&gt;In November 2013 I had the opportunity to work with the Australian Science Media Centre (AusSMC) and produce a talk explaining numbers and statistics.  The deal was that it was 11 concepts on numbers and stats in 20 minutes.  The concepts being:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -1269,9 +1269,9 @@ However, one must ask how sustainable this would be for an entire programming la
  
  <entry>
    <title>Statistics Can Do Anything?</title>
-   <link href="http://localhost:4000/statistics/blag/2013/09/01/stats-can-do-anything/"/>
+   <link href="http://njtierney.github.io/statistics/blag/2013/09/01/stats-can-do-anything/"/>
    <updated>2013-09-01T00:00:00+10:00</updated>
-   <id>http://localhost:4000/statistics/blag/2013/09/01/stats-can-do-anything</id>
+   <id>http://njtierney.github.io/statistics/blag/2013/09/01/stats-can-do-anything</id>
    <content type="html">&lt;p&gt;Sometimes people are fond of saying:&lt;/p&gt;
 &lt;blockquote&gt;&quot;Well, &lt;em&gt;you know&lt;/em&gt;, the thing with statistics is that you can get the statistics to say whatever you want.&quot;&lt;/blockquote&gt;
 &lt;p&gt;I think that this is the equivalent of saying:&lt;/p&gt;
@@ -1317,9 +1317,9 @@ However, one must ask how sustainable this would be for an entire programming la
  
  <entry>
    <title>Monte Carlo Approximiation</title>
-   <link href="http://localhost:4000/statistics/2013/06/26/monte-carlo-approx/"/>
+   <link href="http://njtierney.github.io/statistics/2013/06/26/monte-carlo-approx/"/>
    <updated>2013-06-26T00:00:00+10:00</updated>
-   <id>http://localhost:4000/statistics/2013/06/26/monte-carlo-approx</id>
+   <id>http://njtierney.github.io/statistics/2013/06/26/monte-carlo-approx</id>
    <content type="html">&lt;p&gt;There are a lot of explanations of Monte Carlo approximation out there.&lt;/p&gt;
 
 &lt;p&gt;Here is one that worked for me.&lt;/p&gt;
@@ -1388,9 +1388,9 @@ However, one must ask how sustainable this would be for an entire programming la
  
  <entry>
    <title>Define: Analytically</title>
-   <link href="http://localhost:4000/statistics/2013/06/20/analytically/"/>
+   <link href="http://njtierney.github.io/statistics/2013/06/20/analytically/"/>
    <updated>2013-06-20T00:00:00+10:00</updated>
-   <id>http://localhost:4000/statistics/2013/06/20/analytically</id>
+   <id>http://njtierney.github.io/statistics/2013/06/20/analytically</id>
    <content type="html">&lt;p&gt;What does the word &lt;em&gt;analytical&lt;/em&gt;, mean?&lt;/p&gt;
 
 &lt;p&gt;Wikipedia says:&lt;/p&gt;
@@ -1424,9 +1424,9 @@ However, one must ask how sustainable this would be for an entire programming la
  
  <entry>
    <title>Humanity</title>
-   <link href="http://localhost:4000/blag/2013/06/12/humanity/"/>
+   <link href="http://njtierney.github.io/blag/2013/06/12/humanity/"/>
    <updated>2013-06-12T00:00:00+10:00</updated>
-   <id>http://localhost:4000/blag/2013/06/12/humanity</id>
+   <id>http://njtierney.github.io/blag/2013/06/12/humanity</id>
    <content type="html">&lt;p&gt;A friend of mine posted an interesting article on facebook today - &lt;a href=&quot;http://theconversation.com/honing-the-mind-and-nurturing-the-soul-why-the-humanities-are-underrated-15027&quot;&gt;“Honing the mind and nurturing the soul: why the humanities are underrated”&lt;/a&gt;.  The piece is written by Professor Steven Schwartz, a distinguished academic currently residing at Oxford University after holding Vice Chancellor positions in Australia and the UK.&lt;/p&gt;
 
 &lt;p&gt;The article tells of Schwartz seeing the return of mature age students to university, not to study a doctorate in accounting or business, but the arts and humanities.  As he put it, these students were returning to “fulfil a life-long desire to immerse themselves in the arts or humanities” after years in another profession.  Schwartz makes the point that you do not need to make money to then spend it later in life - doing the ‘degree they have always wanted to do’ -  you can study the humanities &lt;em&gt;and&lt;/em&gt; make money.&lt;/p&gt;
