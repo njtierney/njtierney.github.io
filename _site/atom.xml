@@ -4,7 +4,7 @@
  <title>Nicholas Tierney</title>
  <link href="http://njtierney.github.io/atom.xml" rel="self"/>
  <link href="http://njtierney.github.io/"/>
- <updated>2017-01-12T09:50:05+10:00</updated>
+ <updated>2017-01-12T09:57:45+10:00</updated>
  <id>http://njtierney.github.io</id>
  <author>
    <name>Nicholas Tierney</name>
@@ -174,9 +174,15 @@ ggplot(data = lm_augmented,
 
 &lt;p&gt;
 &lt;div style=&quot;height: auto&quot;&gt;
-&lt;img src=&quot;/assets/ProgrammerInterrupted.pdf&quot; alt=&quot;Why you shouldn't interrupt a programmer&quot; style=&quot;max-height: 100%&quot; align=&quot;middle&quot; /&gt;
+&lt;img src=&quot;/assets/ProgrammerInterrupted.png&quot; alt=&quot;Why you shouldn't interrupt a programmer&quot; style=&quot;max-height: 100%&quot; /&gt;
 &lt;/div&gt;
 &lt;/p&gt;
+
+&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;knitr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;include_graphics&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rprojroot&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;find_rstudio_root_file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/assets/ProgrammerInterrupted.png&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;//Users/tierneyn/Google Drive/ALL THE THINGS/PhD/code/websites/njtierney.github.io//assets/ProgrammerInterrupted.png&quot; alt=&quot;plot of chunk insert-image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Once again thank you to Jenny Bryan for making our lives easier. Jenny will be joining the RStudio team this year and I am really looking forward to seeing what she gets up to.&lt;/p&gt;
 

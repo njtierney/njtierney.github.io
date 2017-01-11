@@ -162,9 +162,17 @@ You save time and energy, and can focus more on **doing what you want to do**, a
 
 <p>
 <div style="height: auto">
-<img src="{{ site.baseurl }}/assets/ProgrammerInterrupted.pdf" alt="Why you shouldn't interrupt a programmer" style="max-height: 100%" align="middle"/>
+<img src="{{ site.baseurl }}/assets/ProgrammerInterrupted.png" alt="Why you shouldn't interrupt a programmer" style="max-height: 100%"/>
 </div>
 </p>
+
+
+```r
+knitr::include_graphics(rprojroot::find_rstudio_root_file("/assets/ProgrammerInterrupted.png"))
+```
+
+![plot of chunk insert-image](//Users/tierneyn/Google Drive/ALL THE THINGS/PhD/code/websites/njtierney.github.io//assets/ProgrammerInterrupted.png)
+
 
 Once again thank you to Jenny Bryan for making our lives easier. Jenny will be joining the RStudio team this year and I am really looking forward to seeing what she gets up to.
 
