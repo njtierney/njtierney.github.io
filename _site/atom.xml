@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Nicholas Tierney</title>
- <link href="http://localhost:4000/atom.xml" rel="self"/>
- <link href="http://localhost:4000/"/>
- <updated>2016-12-31T14:26:36+11:00</updated>
- <id>http://localhost:4000</id>
+ <link href="http://njtierney.github.io/atom.xml" rel="self"/>
+ <link href="http://njtierney.github.io/"/>
+ <updated>2017-01-12T09:50:05+10:00</updated>
+ <id>http://njtierney.github.io</id>
  <author>
    <name>Nicholas Tierney</name>
    <email></email>
@@ -13,10 +13,183 @@
 
  
  <entry>
+   <title>Magic reprex</title>
+   <link href="http://njtierney.github.io/r/rbloggers/2017/01/11/reprex-magic/"/>
+   <updated>2017-01-11T00:00:00+10:00</updated>
+   <id>http://njtierney.github.io/r/rbloggers/2017/01/11/reprex-magic</id>
+   <content type="html">&lt;p&gt;Making reproducible examples can be hard.&lt;/p&gt;
+
+&lt;p&gt;There’s a lot of things you need to consider. Like, making sure your environment is clean, the right packages are loaded, the code is formatted nicely, and images are the right resolution and dimension.&lt;/p&gt;
+
+&lt;p&gt;Getting all of these ducks lined up can sometimes take a couple of minutes, if you have a nice tightly defined problem. Other times, it can take much, much longer. Say for example, if you had a variable loaded in your environment that you forgot how to create, and you didn’t realise it was so important and OH GOD HOW DID I EVEN DO THIS? Ahem.&lt;/p&gt;
+
+&lt;p&gt;So, after some sensible swearing and frustration, you might ask yourself something like:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Surely there’s an easy, reproducible way to … make reproducible examples?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Enter the R package &lt;code class=&quot;highlighter-rouge&quot;&gt;reprex&lt;/code&gt; [&lt;a href=&quot;https://cran.r-project.org/web/packages/reprex/index.html&quot;&gt;CRAN&lt;/a&gt;] [&lt;a href=&quot;https://github.com/jennybc/reprex&quot;&gt;GitHub&lt;/a&gt;], by &lt;a href=&quot;http://www.github.com/jennybc&quot;&gt;Jenny Bryan&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In the fashion of the times right now, I’ll illustrate &lt;code class=&quot;highlighter-rouge&quot;&gt;reprex&lt;/code&gt; with a gif, which shows the following things:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Take your code, copy it to the clipboard.&lt;/li&gt;
+  &lt;li&gt;Run &lt;code class=&quot;highlighter-rouge&quot;&gt;reprex&lt;/code&gt;, wait a moment for the code to execute.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;reprex&lt;/code&gt; creates a html preview of your code.&lt;/li&gt;
+  &lt;li&gt;A markdown chunk is also copied to the clipboard.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;
+&lt;div style=&quot;height: auto&quot;&gt;
+&lt;img src=&quot;/assets/reprex-run.gif&quot; alt=&quot;Gif of reprex copying code, running reprex, and demonstrating the html preview of the code text&quot; style=&quot;width: 100%;max-height: 100%&quot; /&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;This means you can copy this to say, GitHub (&lt;code class=&quot;highlighter-rouge&quot;&gt;reprex(venue = &quot;gh&quot;)&lt;/code&gt;) (the default) to help you file an issue:&lt;/p&gt;
+
+&lt;p&gt;
+&lt;div style=&quot;height: auto&quot;&gt;
+&lt;img src=&quot;/assets/reprex-github.gif&quot; alt=&quot;Gif of reprex copying code, running reprex, and demonstrating the html preview of the code text&quot; style=&quot;width: 100%;max-height: 100%&quot; /&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;There is also an option for Stack Overflow(&lt;code class=&quot;highlighter-rouge&quot;&gt;reprex(venue = &quot;so&quot;)&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;How does this work? &lt;code class=&quot;highlighter-rouge&quot;&gt;reprex&lt;/code&gt; takes the section of copied code and then runs &lt;code class=&quot;highlighter-rouge&quot;&gt;rmarkdown::render&lt;/code&gt; on it, which starts a fresh environment, and runs the code.
+This means that &lt;code class=&quot;highlighter-rouge&quot;&gt;reprex&lt;/code&gt; will fail hard and fail early if your examples aren’t reproducible. If you don’t have the correct library loaded, it will show the error messages.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;div style=&quot;height: auto&quot;&gt;
+&lt;img src=&quot;/assets/reprex-fail-1.gif&quot; alt=&quot;Gif of reprex copying code, running reprex, and demonstrating the html preview of the code text&quot; style=&quot;width: 100%;max-height: 100%&quot; /&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;But then when you fix that, by adding library calls to &lt;a href=&quot;https://github.com/njtierney/visdat&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;visdat&lt;/code&gt;&lt;/a&gt;, &lt;a href=&quot;https://github.com/tidyverse/ggplot2&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ggplot2&lt;/code&gt;&lt;/a&gt; and &lt;a href=&quot;https://github.com/njtierney/naniar&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;naniar&lt;/code&gt;&lt;/a&gt;, and you get what you want:&lt;/p&gt;
+
+&lt;p&gt;
+&lt;div style=&quot;height: auto&quot;&gt;
+&lt;img src=&quot;/assets/reprex-success-1.gif&quot; alt=&quot;Gif of reprex copying code, running reprex, and demonstrating the html preview of the code text using visdat, naniar, and ggplot2 packages&quot; style=&quot;width: 100%;max-height: 100%&quot; /&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;So you know that when you run &lt;code class=&quot;highlighter-rouge&quot;&gt;reprex&lt;/code&gt;, and it gives you a reproducible example, it will work!&lt;/p&gt;
+
+&lt;p&gt;Also worth mentioning is that rather magically, &lt;code class=&quot;highlighter-rouge&quot;&gt;reprex&lt;/code&gt; also handles images. I didn’t even notice this at first. It was just one of those things where “it just works”. &lt;code class=&quot;highlighter-rouge&quot;&gt;reprex&lt;/code&gt; handles this by uploading them to imgur using the &lt;code class=&quot;highlighter-rouge&quot;&gt;knitr::imgur_upload&lt;/code&gt; function, which creates markdown links to the images.&lt;/p&gt;
+
+&lt;p&gt;so&lt;/p&gt;
+
+&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;library&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tidyverse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+
+&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# run a lm
+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lm_fit&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Sepal.Length&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iris&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+
+&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# use broom to clean it up
+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;library&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;broom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lm_augmented&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;augment&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lm_fit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lm_augmented&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+
+&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# Explore the fit of the model
+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ggplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lm_augmented&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+   &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;aes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;.fitted&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+       &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Sepal.Length&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;geom_point&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
+
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;gets turned into&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;library(tidyverse)
+#&amp;gt; Loading tidyverse: ggplot2
+#&amp;gt; Loading tidyverse: tibble
+#&amp;gt; Loading tidyverse: tidyr
+#&amp;gt; Loading tidyverse: readr
+#&amp;gt; Loading tidyverse: purrr
+#&amp;gt; Loading tidyverse: dplyr
+#&amp;gt; Conflicts with tidy packages ----------------------------------------------
+#&amp;gt; filter(): dplyr, stats
+#&amp;gt; lag():    dplyr, stats
+
+# run a lm
+
+lm_fit &amp;lt;- lm(Sepal.Length ~ . , data = iris)
+
+# use broom to clean it up
+
+library(broom)
+
+lm_augmented &amp;lt;- augment(lm_fit)
+
+head(lm_augmented)
+#&amp;gt;   Sepal.Length Sepal.Width Petal.Length Petal.Width Species  .fitted
+#&amp;gt; 1          5.1         3.5          1.4         0.2  setosa 5.004788
+#&amp;gt; 2          4.9         3.0          1.4         0.2  setosa 4.756844
+#&amp;gt; 3          4.7         3.2          1.3         0.2  setosa 4.773097
+#&amp;gt; 4          4.6         3.1          1.5         0.2  setosa 4.889357
+#&amp;gt; 5          5.0         3.6          1.4         0.2  setosa 5.054377
+#&amp;gt; 6          5.4         3.9          1.7         0.4  setosa 5.388886
+#&amp;gt;      .se.fit      .resid       .hat    .sigma      .cooksd  .std.resid
+#&amp;gt; 1 0.04479188  0.09521198 0.02131150 0.3077918 3.570856e-04  0.31367294
+#&amp;gt; 2 0.05514933  0.14315645 0.03230694 0.3076565 1.251718e-03  0.47429637
+#&amp;gt; 3 0.04690495 -0.07309695 0.02336968 0.3078349 2.317688e-04 -0.24106926
+#&amp;gt; 4 0.05135928 -0.28935683 0.02801904 0.3069173 4.396118e-03 -0.95656076
+#&amp;gt; 5 0.04736842 -0.05437691 0.02383379 0.3078627 1.309299e-04 -0.17937436
+#&amp;gt; 6 0.05592364  0.01111427 0.03322050 0.3078956 7.772793e-06  0.03684044
+
+# Explore the fit of the model, looking 
+
+ggplot(data = lm_augmented,
+       aes(x = .fitted,
+           y = Sepal.Length)) + 
+  geom_point() 
+
+`![](http://i.imgur.com/h72ZEKG.png)`
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;You can even show the results of the &lt;code class=&quot;highlighter-rouge&quot;&gt;session_info&lt;/code&gt;, for maximum reproducibility, by adding the argument: &lt;code class=&quot;highlighter-rouge&quot;&gt;reprex::reprex(si = TRUE)&lt;/code&gt;, which adds a super nifty drop down box for the session info.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;div style=&quot;height: auto&quot;&gt;
+&lt;img src=&quot;/assets/reprex-si.gif&quot; alt=&quot;Gif of reprex copying code, running reprex, showing option SI = TRUE&quot; style=&quot;width: 100%;max-height: 100%&quot; /&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;I really like these sorts of small tools in R. Squinting at a distance you might make the mistake of thinking:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;so what, it does this &lt;strong&gt;one little thing&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;But then when you’re actually up close, you realise this means that you don’t have to bend your brain around doing this thing, which can range from mildly annoying to mostly infuriating.&lt;/p&gt;
+
+&lt;p&gt;You save time and energy, and can focus more on &lt;strong&gt;doing what you want to do&lt;/strong&gt;, and less on &lt;strong&gt;fighting against interruptions&lt;/strong&gt;. This comic by &lt;a href=&quot;http://heeris.id.au/2013/this-is-why-you-shouldnt-interrupt-a-programmer/&quot;&gt;Jason Heeris&lt;/a&gt; illustrates this point nicely, I think:&lt;/p&gt;
+
+&lt;p&gt;
+&lt;div style=&quot;height: auto&quot;&gt;
+&lt;img src=&quot;/assets/ProgrammerInterrupted.pdf&quot; alt=&quot;Why you shouldn't interrupt a programmer&quot; style=&quot;max-height: 100%&quot; align=&quot;middle&quot; /&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Once again thank you to Jenny Bryan for making our lives easier. Jenny will be joining the RStudio team this year and I am really looking forward to seeing what she gets up to.&lt;/p&gt;
+
+&lt;p&gt;Read more about &lt;code class=&quot;highlighter-rouge&quot;&gt;reprex&lt;/code&gt; on github &lt;a href=&quot;http://www.github.com/jennybc/reprex&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
    <title>A Simple Guide to S3 Methods</title>
-   <link href="http://localhost:4000/r/missing%20data/rbloggers/2016/11/06/simple-s3-methods/"/>
-   <updated>2016-11-06T00:00:00+11:00</updated>
-   <id>http://localhost:4000/r/missing%20data/rbloggers/2016/11/06/simple-s3-methods</id>
+   <link href="http://njtierney.github.io/r/missing%20data/rbloggers/2016/11/06/simple-s3-methods/"/>
+   <updated>2016-11-06T00:00:00+10:00</updated>
+   <id>http://njtierney.github.io/r/missing%20data/rbloggers/2016/11/06/simple-s3-methods</id>
    <content type="html">&lt;p&gt;A few months ago &lt;a href=&quot;http://www.njtierney.com/r/rbloggers/2016/08/26/SimpleS3/&quot;&gt;I wrote about&lt;/a&gt; my first solo author submission to the &lt;a href=&quot;https://journal.r-project.org/&quot;&gt;R Journal&lt;/a&gt; entitled, “A Simple Guide to S3 Methods”. Unfortunately the article didn’t make it to publication on the R Journal, but admittedly that might have been a bit of a long shot.&lt;/p&gt;
 
 &lt;p&gt;So, I thought that it might be good if I instead share the article here on my blog and r bloggers, so that people can comment below and share their thoughts.&lt;/p&gt;
@@ -444,9 +617,9 @@ However, one must ask how sustainable this would be for an entire programming la
  
  <entry>
    <title>Simple Guide to S3 Methods</title>
-   <link href="http://localhost:4000/r/rbloggers/2016/08/26/SimpleS3/"/>
+   <link href="http://njtierney.github.io/r/rbloggers/2016/08/26/SimpleS3/"/>
    <updated>2016-08-26T00:00:00+10:00</updated>
-   <id>http://localhost:4000/r/rbloggers/2016/08/26/SimpleS3</id>
+   <id>http://njtierney.github.io/r/rbloggers/2016/08/26/SimpleS3</id>
    <content type="html">&lt;p&gt;So I’ve just submitted my first article to &lt;a href=&quot;https://journal.r-project.org/&quot;&gt;the R Journal&lt;/a&gt;!&lt;/p&gt;
 
 &lt;div style=&quot;width: auto&quot;&gt;
@@ -489,9 +662,9 @@ However, one must ask how sustainable this would be for an entire programming la
  
  <entry>
    <title>Science Meets Parliament</title>
-   <link href="http://localhost:4000/blag/2016/08/22/science-meets-parliament/"/>
+   <link href="http://njtierney.github.io/blag/2016/08/22/science-meets-parliament/"/>
    <updated>2016-08-22T00:00:00+10:00</updated>
-   <id>http://localhost:4000/blag/2016/08/22/science-meets-parliament</id>
+   <id>http://njtierney.github.io/blag/2016/08/22/science-meets-parliament</id>
    <content type="html">&lt;p&gt;This blog post is a repost from the &lt;a href=&quot;http://www.statsoc.org.au/wp-content/uploads/2013/06/SSAI_Newsletter_June2016_v3.pdf&quot;&gt;Statistical Society of Australia Newsletter&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;
@@ -570,9 +743,9 @@ However, one must ask how sustainable this would be for an entire programming la
  
  <entry>
    <title>Australian rOpenSci Unconference</title>
-   <link href="http://localhost:4000/blag/2016/03/09/au-unconf-down-under/"/>
-   <updated>2016-03-09T00:00:00+11:00</updated>
-   <id>http://localhost:4000/blag/2016/03/09/au-unconf-down-under</id>
+   <link href="http://njtierney.github.io/blag/2016/03/09/au-unconf-down-under/"/>
+   <updated>2016-03-09T00:00:00+10:00</updated>
+   <id>http://njtierney.github.io/blag/2016/03/09/au-unconf-down-under</id>
    <content type="html">&lt;p&gt;The rOpenSci Unconferene is coming to Australia and we are excited!!&lt;/p&gt;
 
 &lt;p&gt;The event will take place in sunny Brisbane, on April 21-22 2016 hosted at the &lt;a href=&quot;https://www.microsoftinnovationcenters.com/&quot;&gt;Microsoft Innovation Centre&lt;/a&gt;. You can find more information about the event and how to register at &lt;a href=&quot;http://www.auunconf.ropensci.org.&quot;&gt;http://www.auunconf.ropensci.org.&lt;/a&gt;&lt;/p&gt;
@@ -608,9 +781,9 @@ However, one must ask how sustainable this would be for an entire programming la
  
  <entry>
    <title>WOMBAT 2016 Wrap Up</title>
-   <link href="http://localhost:4000/blag/rbloggers/2016/03/06/wombat-2016-wrap-up/"/>
-   <updated>2016-03-06T00:00:00+11:00</updated>
-   <id>http://localhost:4000/blag/rbloggers/2016/03/06/wombat-2016-wrap-up</id>
+   <link href="http://njtierney.github.io/blag/rbloggers/2016/03/06/wombat-2016-wrap-up/"/>
+   <updated>2016-03-06T00:00:00+10:00</updated>
+   <id>http://njtierney.github.io/blag/rbloggers/2016/03/06/wombat-2016-wrap-up</id>
    <content type="html">&lt;p&gt;A few weeks ago I spoke at the &lt;a href=&quot;http://wombat2016.org/&quot;&gt;Workshop Organized by Monash Business Analytics Team (WOMBAT)&lt;/a&gt;, held in the Melbourne Zoo (!) on Thursday and Friday the 18th and 19th February.&lt;/p&gt;
 
 &lt;p&gt;It was my first time at the Melbourne Zoo, and my first time having a conference in a Zoo. It was a pretty surreal experience briskly walking to the conference room while trying to navigate a zoo, passing monkeys, macaws, and tigers. And during the lunch breaks you could sit down and chat with other conference attendees…or go and see the Orangutan show, watch the elephants get a clean, or see some Gorillas.&lt;/p&gt;
@@ -641,9 +814,9 @@ However, one must ask how sustainable this would be for an entire programming la
  
  <entry>
    <title>ggplot your missing data</title>
-   <link href="http://localhost:4000/r/missing%20data/rbloggers/2015/12/01/ggplot-missing-data/"/>
-   <updated>2015-12-01T00:00:00+11:00</updated>
-   <id>http://localhost:4000/r/missing%20data/rbloggers/2015/12/01/ggplot-missing-data</id>
+   <link href="http://njtierney.github.io/r/missing%20data/rbloggers/2015/12/01/ggplot-missing-data/"/>
+   <updated>2015-12-01T00:00:00+10:00</updated>
+   <id>http://njtierney.github.io/r/missing%20data/rbloggers/2015/12/01/ggplot-missing-data</id>
    <content type="html">&lt;p&gt;Visualising missing data is important when analysing a dataset. I wanted to make a plot of the presence/absence in a dataset. One package, &lt;a href=&quot;https://cran.r-project.org/web/packages/Amelia/index.html&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Amelia&lt;/code&gt;&lt;/a&gt; provides a function to do this, but I don’t like the way it looks. So I made a ggplot version of what it did.&lt;/p&gt;
 
 &lt;p&gt;Let’s make a dataset using the awesome &lt;a href=&quot;https://github.com/trinker/wakefield&quot;&gt;wakefield package&lt;/a&gt;, and add random missingness.&lt;/p&gt;
@@ -725,9 +898,9 @@ However, one must ask how sustainable this would be for an entire programming la
  
  <entry>
    <title>ggplot your missing data</title>
-   <link href="http://localhost:4000/r/missing%20data/2015/11/12/ggplot-missing-data/"/>
-   <updated>2015-11-12T00:00:00+11:00</updated>
-   <id>http://localhost:4000/r/missing%20data/2015/11/12/ggplot-missing-data</id>
+   <link href="http://njtierney.github.io/r/missing%20data/rbloggers/2015/11/12/ggplot-missing-data/"/>
+   <updated>2015-11-12T00:00:00+10:00</updated>
+   <id>http://njtierney.github.io/r/missing%20data/rbloggers/2015/11/12/ggplot-missing-data</id>
    <content type="html">&lt;p&gt;Visualising missing data is important when analysing a dataset. I wanted to make a plot of the presence/absence in a dataset. One package, &lt;a href=&quot;https://cran.r-project.org/web/packages/Amelia/index.html&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Amelia&lt;/code&gt;&lt;/a&gt; provides a function to do this, but I don’t like the way it looks. So I made a ggplot version of what it did.&lt;/p&gt;
 
 &lt;p&gt;Let’s make a dataset using the awesome &lt;a href=&quot;https://github.com/trinker/wakefield&quot;&gt;wakefield package&lt;/a&gt;, and add random missingness.&lt;/p&gt;
@@ -811,9 +984,9 @@ However, one must ask how sustainable this would be for an entire programming la
  
  <entry>
    <title>How I built my website</title>
-   <link href="http://localhost:4000/jekyll/2015/11/11/how-i-built-my-site/"/>
-   <updated>2015-11-11T00:00:00+11:00</updated>
-   <id>http://localhost:4000/jekyll/2015/11/11/how-i-built-my-site</id>
+   <link href="http://njtierney.github.io/jekyll/2015/11/11/how-i-built-my-site/"/>
+   <updated>2015-11-11T00:00:00+10:00</updated>
+   <id>http://njtierney.github.io/jekyll/2015/11/11/how-i-built-my-site</id>
    <content type="html">&lt;p&gt;I’ve recently changed my website from Wordpress to Jekyll. In this post I try and succinctly describe how it happened.&lt;/p&gt;
 
 &lt;h1 id=&quot;why-change&quot;&gt;Why change?&lt;/h1&gt;
@@ -1015,9 +1188,9 @@ However, one must ask how sustainable this would be for an entire programming la
  
  <entry>
    <title>Using `table` the dplyr way</title>
-   <link href="http://localhost:4000/r/2015/11/03/tally-the-dplyr-table/"/>
-   <updated>2015-11-03T00:00:00+11:00</updated>
-   <id>http://localhost:4000/r/2015/11/03/tally-the-dplyr-table</id>
+   <link href="http://njtierney.github.io/r/2015/11/03/tally-the-dplyr-table/"/>
+   <updated>2015-11-03T00:00:00+10:00</updated>
+   <id>http://njtierney.github.io/r/2015/11/03/tally-the-dplyr-table</id>
    <content type="html">&lt;p&gt;In this post I describe how to use &lt;code class=&quot;highlighter-rouge&quot;&gt;tally&lt;/code&gt;, the &lt;code class=&quot;highlighter-rouge&quot;&gt;dplyr&lt;/code&gt; equivalent of &lt;code class=&quot;highlighter-rouge&quot;&gt;table&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;table&lt;/code&gt; gives you the frequencies of something in a category. Let’s use the &lt;code class=&quot;highlighter-rouge&quot;&gt;iris&lt;/code&gt; dataset to illustrate. Let’s say we want to know how many are in each species in &lt;code class=&quot;highlighter-rouge&quot;&gt;iris&lt;/code&gt;.&lt;/p&gt;
@@ -1112,9 +1285,9 @@ However, one must ask how sustainable this would be for an entire programming la
  
  <entry>
    <title>R Package `neato`</title>
-   <link href="http://localhost:4000/r/2015/03/09/r-package-neato/"/>
-   <updated>2015-03-09T00:00:00+11:00</updated>
-   <id>http://localhost:4000/r/2015/03/09/r-package-neato</id>
+   <link href="http://njtierney.github.io/r/2015/03/09/r-package-neato/"/>
+   <updated>2015-03-09T00:00:00+10:00</updated>
+   <id>http://njtierney.github.io/r/2015/03/09/r-package-neato</id>
    <content type="html">&lt;p&gt;My workflow in R now is to make a function after I copy and paste some code more than once. Sometimes I find myself using these functions more than once, across different projects.&lt;/p&gt;
 
 &lt;p&gt;So I decided to make an R package with a few of these functions in it. I call it “neato”, in the vain hope that one day someone will find one of these functions and say: “neato!”, because hey, it’s pretty neat!&lt;/p&gt;
@@ -1129,9 +1302,9 @@ However, one must ask how sustainable this would be for an entire programming la
  
  <entry>
    <title>Working Smoothly(er) from RMarkdown to Word.</title>
-   <link href="http://localhost:4000/rmarkdown/r/2015/02/09/Working-Smoothlyer-from-RMarkdown-to-Word/"/>
-   <updated>2015-02-09T00:00:00+11:00</updated>
-   <id>http://localhost:4000/rmarkdown/r/2015/02/09/Working-Smoothlyer-from-RMarkdown-to-Word</id>
+   <link href="http://njtierney.github.io/rmarkdown/r/2015/02/09/Working-Smoothlyer-from-RMarkdown-to-Word/"/>
+   <updated>2015-02-09T00:00:00+10:00</updated>
+   <id>http://njtierney.github.io/rmarkdown/r/2015/02/09/Working-Smoothlyer-from-RMarkdown-to-Word</id>
    <content type="html">&lt;p&gt;I’m a pretty huge fan of RMarkdown, as it is a great way for me to write my code and my text together. It seems really a rather a natural thing to do. You write about your analyses, and the code is there. You update some function or some data, and your figures and tables update with it.&lt;/p&gt;
 
 &lt;p&gt;In my head I feel as though I am working more efficiently. However there is some research to suggest that LaTeX users actually work slower than Word users. However, LaTeX users &lt;em&gt;feel better&lt;/em&gt; about using LaTeX. I would like to dub this the &lt;strong&gt;brown corduroy trousers effect&lt;/strong&gt;, quoting Robin Williams, who said something like:&lt;/p&gt;
@@ -1180,9 +1353,9 @@ However, one must ask how sustainable this would be for an entire programming la
  
  <entry>
    <title>Fix for `gbm.plot`</title>
-   <link href="http://localhost:4000/r/2014/04/22/gbm-plot-fix/"/>
+   <link href="http://njtierney.github.io/r/2014/04/22/gbm-plot-fix/"/>
    <updated>2014-04-22T00:00:00+10:00</updated>
-   <id>http://localhost:4000/r/2014/04/22/gbm-plot-fix</id>
+   <id>http://njtierney.github.io/r/2014/04/22/gbm-plot-fix</id>
    <content type="html">&lt;p&gt;I’m currently in the process of writing a report using boosted regression trees.  I’m currently using guidelines provided by Elith et al &lt;a href=&quot;http://avesbiodiv.mncn.csic.es/estadistica/bt1.pdf&quot;&gt;here&lt;/a&gt;, and &lt;a href=&quot;http://cran.r-project.org/web/packages/dismo/vignettes/brt.pdf&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;They provide the function &lt;code class=&quot;highlighter-rouge&quot;&gt;gbm.step&lt;/code&gt;, which performs 10-fold cross validation on the boosted regression tree. It also has a nifty &lt;code class=&quot;highlighter-rouge&quot;&gt;gbm.plot&lt;/code&gt; function, producing partial dependence plots. Unforunately, it kept giving me this error:&lt;/p&gt;
@@ -1201,9 +1374,9 @@ However, one must ask how sustainable this would be for an entire programming la
  
  <entry>
    <title>A Grammar of Models?</title>
-   <link href="http://localhost:4000/r/statistics/2013/11/10/grammar-of-models/"/>
-   <updated>2013-11-10T00:00:00+11:00</updated>
-   <id>http://localhost:4000/r/statistics/2013/11/10/grammar-of-models</id>
+   <link href="http://njtierney.github.io/r/statistics/2013/11/10/grammar-of-models/"/>
+   <updated>2013-11-10T00:00:00+10:00</updated>
+   <id>http://njtierney.github.io/r/statistics/2013/11/10/grammar-of-models</id>
    <content type="html">&lt;p&gt;I came across &lt;a href=&quot;http://statr.me/2013/09/a-conversation-with-hadley-wickham/&quot;&gt;this interview&lt;/a&gt; with Hadley Wickham, the creator of one of the most widely used R packages, &lt;code class=&quot;highlighter-rouge&quot;&gt;ggplot 2&lt;/code&gt;. I thought that this quote was interesting:&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -1231,9 +1404,9 @@ However, one must ask how sustainable this would be for an entire programming la
  
  <entry>
    <title>Statistics for Journalists</title>
-   <link href="http://localhost:4000/statistics/teaching/2013/11/01/statistics-for-journalists/"/>
-   <updated>2013-11-01T00:00:00+11:00</updated>
-   <id>http://localhost:4000/statistics/teaching/2013/11/01/statistics-for-journalists</id>
+   <link href="http://njtierney.github.io/statistics/teaching/2013/11/01/statistics-for-journalists/"/>
+   <updated>2013-11-01T00:00:00+10:00</updated>
+   <id>http://njtierney.github.io/statistics/teaching/2013/11/01/statistics-for-journalists</id>
    <content type="html">&lt;p&gt;In November 2013 I had the opportunity to work with the Australian Science Media Centre (AusSMC) and produce a talk explaining numbers and statistics.  The deal was that it was 11 concepts on numbers and stats in 20 minutes.  The concepts being:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -1269,9 +1442,9 @@ However, one must ask how sustainable this would be for an entire programming la
  
  <entry>
    <title>Statistics Can Do Anything?</title>
-   <link href="http://localhost:4000/statistics/blag/2013/09/01/stats-can-do-anything/"/>
+   <link href="http://njtierney.github.io/statistics/blag/2013/09/01/stats-can-do-anything/"/>
    <updated>2013-09-01T00:00:00+10:00</updated>
-   <id>http://localhost:4000/statistics/blag/2013/09/01/stats-can-do-anything</id>
+   <id>http://njtierney.github.io/statistics/blag/2013/09/01/stats-can-do-anything</id>
    <content type="html">&lt;p&gt;Sometimes people are fond of saying:&lt;/p&gt;
 &lt;blockquote&gt;&quot;Well, &lt;em&gt;you know&lt;/em&gt;, the thing with statistics is that you can get the statistics to say whatever you want.&quot;&lt;/blockquote&gt;
 &lt;p&gt;I think that this is the equivalent of saying:&lt;/p&gt;
@@ -1317,9 +1490,9 @@ However, one must ask how sustainable this would be for an entire programming la
  
  <entry>
    <title>Monte Carlo Approximiation</title>
-   <link href="http://localhost:4000/statistics/2013/06/26/monte-carlo-approx/"/>
+   <link href="http://njtierney.github.io/statistics/2013/06/26/monte-carlo-approx/"/>
    <updated>2013-06-26T00:00:00+10:00</updated>
-   <id>http://localhost:4000/statistics/2013/06/26/monte-carlo-approx</id>
+   <id>http://njtierney.github.io/statistics/2013/06/26/monte-carlo-approx</id>
    <content type="html">&lt;p&gt;There are a lot of explanations of Monte Carlo approximation out there.&lt;/p&gt;
 
 &lt;p&gt;Here is one that worked for me.&lt;/p&gt;
@@ -1388,9 +1561,9 @@ However, one must ask how sustainable this would be for an entire programming la
  
  <entry>
    <title>Define: Analytically</title>
-   <link href="http://localhost:4000/statistics/2013/06/20/analytically/"/>
+   <link href="http://njtierney.github.io/statistics/2013/06/20/analytically/"/>
    <updated>2013-06-20T00:00:00+10:00</updated>
-   <id>http://localhost:4000/statistics/2013/06/20/analytically</id>
+   <id>http://njtierney.github.io/statistics/2013/06/20/analytically</id>
    <content type="html">&lt;p&gt;What does the word &lt;em&gt;analytical&lt;/em&gt;, mean?&lt;/p&gt;
 
 &lt;p&gt;Wikipedia says:&lt;/p&gt;
@@ -1424,9 +1597,9 @@ However, one must ask how sustainable this would be for an entire programming la
  
  <entry>
    <title>Humanity</title>
-   <link href="http://localhost:4000/blag/2013/06/12/humanity/"/>
+   <link href="http://njtierney.github.io/blag/2013/06/12/humanity/"/>
    <updated>2013-06-12T00:00:00+10:00</updated>
-   <id>http://localhost:4000/blag/2013/06/12/humanity</id>
+   <id>http://njtierney.github.io/blag/2013/06/12/humanity</id>
    <content type="html">&lt;p&gt;A friend of mine posted an interesting article on facebook today - &lt;a href=&quot;http://theconversation.com/honing-the-mind-and-nurturing-the-soul-why-the-humanities-are-underrated-15027&quot;&gt;“Honing the mind and nurturing the soul: why the humanities are underrated”&lt;/a&gt;.  The piece is written by Professor Steven Schwartz, a distinguished academic currently residing at Oxford University after holding Vice Chancellor positions in Australia and the UK.&lt;/p&gt;
 
 &lt;p&gt;The article tells of Schwartz seeing the return of mature age students to university, not to study a doctorate in accounting or business, but the arts and humanities.  As he put it, these students were returning to “fulfil a life-long desire to immerse themselves in the arts or humanities” after years in another profession.  Schwartz makes the point that you do not need to make money to then spend it later in life - doing the ‘degree they have always wanted to do’ -  you can study the humanities &lt;em&gt;and&lt;/em&gt; make money.&lt;/p&gt;

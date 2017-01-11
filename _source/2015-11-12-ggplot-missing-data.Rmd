@@ -5,6 +5,7 @@ comments: true
 categories:
 - R
 - Missing Data
+- rbloggers
 ---
 
 ```{r setup, include = F}
