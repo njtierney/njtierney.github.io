@@ -151,6 +151,8 @@
 
 <p>Step two: <a href="https://www.rstudio.com/products/rstudio/download2/">download RStudio</a>. RStudio has invested a lot of time and money to make using R much, much easier. It’s also free!</p>
 
+<p>Step three: <a href="http://r4ds.had.co.nz/">Read R for Data Science</a>. This is a great guide written by Hadley Wickham, a prolific R programmer who has had fantastic positive impact on the landscape of R packages and practices. It introduces the principles of the <a href="http://tidyverse.org/"><code class="highlighter-rouge">tidyverse</code></a> - a set of R packages taht play really well together. They cover tools to data reading in/out, data manipulation, data visualisation, and tools for performing and summarising models.</p>
+
 <p>If you are having problems with getting R or RStudio, check out <a href="https://github.com/fawda123/swmp_installR/blob/master/R_install_guide.pdf">this guide</a>, from <a href="https://beckmw.wordpress.com/2014/09/28/back-to-square-one-r-and-rstudio-installation/">this guy</a>. It covers installing R and RStudio in a little more detail.</p>
 
 <h1 id="learning-and-troubleshooting-with-r">Learning and Troubleshooting with R</h1>
@@ -176,16 +178,13 @@
   <li>
     <p><a href="http://r-pkgs.had.co.nz&quot;">R Packges</a>, and</p>
   </li>
-  <li>
-    <p><a href="http://r4ds.had.co.nz/">R for Data Science</a></p>
-  </li>
 </ul>
 
 <p>There is also a book, <a href="http://www.quantide.com/R/r-training/r-web-books/ramarro-r-for-developers">Ramarro</a>, by quantide which seems similar(ish) to Hadley’s books.</p>
 
 <h1 id="advanced-r-stuff-s3-classes">Advanced R stuff: S3 Classes</h1>
 
-<p>S3 classes are this really awesome minimal class of functions that can be super handy in R. They are described nicely in Hadley’s book, but I have also found these to be helpful:</p>
+<p>R’s S3 classes are this really awesome minimal class of functions that can be super handy in R. They are described nicely in Hadley’s book, but I have also found these to be helpful:</p>
 
 <ul>
   <li>
@@ -203,21 +202,20 @@
 
 <h1 id="data-visualisation">Data Visualisation</h1>
 
-<p><code class="highlighter-rouge">ggplot</code></p>
+<p><code class="highlighter-rouge">ggplot2</code></p>
 
-<p>If you are going to do a plot in R, it should be in ggplot. It takes about 5 minutes to get the hang of, and once you’ve got it down you can create plots that make sense, behave how you expect, look fantastic.</p>
+<p>If you are going to do a plot in R, it should be in ggplot. It takes about 5 minutes to get the hang of, and once you’ve got it down you can create plots that make sense, behave how you expect, and look fantastic.</p>
 
-<p>ggplot ollows a logical syntax adapted from the book “The Grammar of Graphics”. It makes visualisation make sense. And there are lots of other packages that build upon it to make it more awesome, such as GGally.</p>
+<p>ggplot ollows a logical syntax adapted from the book “The Grammar of Graphics”. It makes visualisation make sense. And there are lots of other packages that build upon it to make it more awesome, such as <a href="">GGally</a>, <a href="">ggalt</a>, <a href="">ggExtra</a>, <a href="">ggforce</a>, <a href="">gganimate</a>, and <a href="">ggbeeswarm</a>, to name a few!</p>
 
-<p>So here are some ggplot resources in order of usefulness</p>
+<p>Here are some ggplot resources in order of usefulness</p>
 
 <ul>
   <li>The <a href="https://www.rstudio.com/wp-content/uploads/2015/05/ggplot2-cheatsheet.pdf">RStudio ggplot cheatsheet</a> sits pinned up above my desk.</li>
-  <li><a href="http://www.cookbook-r.com/Graphs/">The R Graphics Cookbook</a> usually has the answers for what I’m after.</li>
   <li><a href="docs.ggplot2.org/current">The official documentation</a></li>
-  <li><a href="http://www.ceb-institute.org/bbs/wp-content/uploads/2011/09/handout_ggplot2.pdf">This handout</a> provides an introduction to ggplot.</li>
-  <li><a href="http://docs.ggplot2.org/current/index.html">The ggplot index</a> The ggplot index page is usually where I head to first off when I want to understand how to add and build upon my graphs.</li>
+  <li><a href="http://www.cookbook-r.com/Graphs/">The R Graphics Cookbook</a> usually has the answers for what I’m after.</li>
   <li>I also recently discovered the <a href="https://github.com/hadley/ggplot2/wiki">ggplot2 wiki</a>, which has some great case studies and examples.</li>
+  <li><a href="http://www.ceb-institute.org/bbs/wp-content/uploads/2011/09/handout_ggplot2.pdf">This handout</a> provides an introduction to ggplot.</li>
 </ul>
 
 <h1 id="plotly">plotly</h1>
@@ -228,11 +226,11 @@
 
 <p>ggvis is another great package written by Hadley Wickham, which builds upon the structure of ggplot but it allows for more interactive, reactive, plot building. Examples can be found <a href="http://ggvis.rstudio.com/0.1/quick-examples.html">here</a> <a href="http://ggvis.rstudio.com/ggvis-basics.html">here</a>, and <a href="http://ggvis.rstudio.com/cookbook.html">here</a>.</p>
 
-<p>More serious development on ggvis will apparently begin in 2018, as Hadley and his team at RStudio will be spending 2017 to make the everything in the tidyverse work well together. For the moment I would recommend using plotly to do your interactive graphics.</p>
+<p>More serious development on ggvis will apparently begin in 2018, as Hadley and his team at RStudio will be spending 2017 to make the everything in the tidyverse work well together. For the moment I would recommend using plotly to do your interactive graphics, although ggvis is still great!</p>
 
 <h1 id="shiny">Shiny</h1>
 
-<p>shiny is a really awesome way to enhance your R plotting, and turn them into ‘apps’ (although whether they are actually apps is questionable, in my opinion).</p>
+<p>shiny is a really awesome way to enhance your R script, package, or method. Shiny turns these into ‘apps’, that people can interact with.</p>
 
 <ul>
   <li><a href="http://shiny.rstudio.com/tutorial">shiny</a> tutorial</li>
@@ -244,7 +242,7 @@
 
 <ul>
   <li>Use <a href="https://github.com/hadley/dplyr">dplyr</a> to manipulate data in R. <a href="http://www.dataschool.io/dplyr-tutorial-for-faster-data-manipulation-in-r">Here is a helpful lesson</a></li>
-  <li>Use <a href="https://github.com/hadley/tidyr">tidyr</a> to melt data (new version of <code class="highlighter-rouge">reshape2</code>)</li>
+  <li>Use <a href="https://github.com/hadley/tidyr">tidyr</a> to change the data format; gathering data into long format, and spreading them into wide format, etc. It also has heaps of other little handy tools, like <code class="highlighter-rouge">tidyr::replace_na</code>.</li>
   <li>Use <a href="https://github.com/dgrtwo/broom#broom-lets-tidy-up-a-bit">broom</a> to create <strong>tidy dataframes</strong> of statistical models. <a href="http://127.0.0.1:22465/session/Rvig.15c681ac18b1d.html">Here is a helpful lesson</a></li>
 </ul>
 
@@ -256,7 +254,7 @@
 
 <p>You can also augment your rmarkdown documents with <a href="http://rmarkdown.rstudio.com/developer_document_templates.html">templates</a>. For example -  <a href="https://github.com/rstudio/rticles">rticles</a> which is an r package that adds loads of rmarkdown templates. Currently, there are templates for the R Journal, the UseR Conference, Journal of Statistical Software, PLoS Computational Biology, and more!</p>
 
-<h1 id="learning-r-and-statistics">Learning R and Statistics</h1>
+<h1 id="learning-statistics-using-r">Learning Statistics Using R</h1>
 
 <p>If you want to learn statistics using R, check out <a href="http://www.dataschool.io/15-hours-of-expert-machine-learning-videos">this website</a> containing 15 hours of an applied R statistics course from Stanford. They also have an <a href="http://www-bcf.usc.edu/~gareth/ISL/">excellent (and free!) book</a>.</p>
 
@@ -278,6 +276,46 @@
     <p><a href="http://www.statsoft.com/Textbook/Boosting-Trees-Regression-Classification">This video on</a> introduction to boosting trees for regression and classification by statsoft.</p>
   </li>
 </ul>
+
+<h1 id="using-r-for-spatial-data-wrangling-analysis-and-visualisation">Using R for Spatial Data Wrangling, Analysis, and Visualisation.</h1>
+
+<p>Spatial data analysis can be really different to anything else that you’ve done in R. Well, it was for me. Fortunately, <a href="https://www.r-consortium.org/blog/2017/01/03/simple-features-now-on-cran">recent awesome progress</a> has been made on the simple features R package, officially supported by the RConsortium, and authored by <a href="https://github.com/edzer">Edzer Pebesma</a>. The format of simple features is to adopt a standard dataframe format, where every row is a spatial feature, and the spatial features are described in a geometry list column. This is really fantastic, because it means that (for the most part), working with spatial data is very similar to working with regular dataframes, which is the bread and butter of analysis and data wrangling in R.</p>
+
+<p>In particular, simple features is designed to play nicely with <a href="http://tidyverse.org/">the tidyverse</a>, and accordingly plays well with ggplot2, dplyr, purrr, and so on. It’s amazing. Anyway, here is a list of resources on using the simple features format:</p>
+
+<ul>
+  <li>
+    <p>The <a href="http://r-spatial.org/">R Spatial Blog</a> is a great way to stay updated with the latest changes in simple features.</p>
+  </li>
+  <li>
+    <p><a href="http://strimas.com/r/tidy-sf/">A blog post by Matt Strimas-Mackey</a> on how to use simple features with dplyr, tidyr, and ggplot2.</p>
+  </li>
+  <li>
+    <p><a href="http://sharpsightlabs.com/blog/mapping-france-night/">Mapping France at night</a></p>
+  </li>
+  <li>
+    <p><a href="https://walkerke.github.io/2016/12/spatial-pipelines/">Spatial Pipelines</a></p>
+  </li>
+  <li>
+    <p><a href="https://edzer.github.io/sfr/articles/">Simple Features Vignettes</a></p>
+  </li>
+  <li>
+    <p><a href="http://rpubs.com/cyclemumner/sf-ggraph">Using simple features with ggraph</a></p>
+  </li>
+  <li>
+    <p><a href="http://rpubs.com/cyclemumner/sf-plotting">A comparison of plotting in sp compared to sf</a></p>
+  </li>
+</ul>
+
+<p>For more thoughts on R for spatial data analysis:</p>
+
+<ul>
+  <li><a href="https://mdsumner.github.io/2017/01/10/spatial-r-2017.html">Michael Sumner’s overview</a> of R’s spatial capabilities for 2017.</li>
+</ul>
+
+<p>For interactive visualisation of spatial data, I really like RStudio’s <a href="https://rstudio.github.io/leaflet/">leaflet</a>, which is a port of the excellent <a href="http://leafletjs.com/">JavaScript leaflet library</a> is my go to place.</p>
+
+<p><a href="https://cran.r-project.org/web/packages/ggmap">ggmap</a>, is also great, as it produces static maps.</p>
 
 <h1 id="stata-related-resources">STATA Related Resources</h1>
 
